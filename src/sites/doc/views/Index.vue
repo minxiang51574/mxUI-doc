@@ -20,9 +20,6 @@
             >{{ item.text }}</div
           >
         </div>
-        <div class="doc-content-tabs single" v-if="!isShowTaroDoc">
-          <div class="tab-item cur">vue / taro</div>
-        </div>
         <router-view />
       </div>
       <doc-demo-preview :url="demoUrl" :class="{ fixed: fixed }"></doc-demo-preview>
@@ -68,10 +65,6 @@ export default defineComponent({
         {
           key: 'vue',
           text: 'vue'
-        },
-        {
-          key: 'taro',
-          text: 'taro'
         }
       ]
     });
@@ -93,11 +86,6 @@ export default defineComponent({
     const isTaro = (router: RouteLocationNormalized) => {
       return router.path.indexOf('taro') > -1;
     };
-
-    const isShowTaroDoc = computed(() => {
-      let routename = route.path.toLocaleLowerCase().split('/').pop() || '';
-      return configNav.value.findIndex((item) => item === routename) > -1;
-    });
 
     const watchDemoUrl = (router: RouteLocationNormalized) => {
       const { origin, pathname } = window.location;
@@ -179,8 +167,7 @@ export default defineComponent({
     return {
       ...toRefs(state),
       ...toRefs(data),
-      handleTabs,
-      isShowTaroDoc
+      handleTabs
     };
   }
 });

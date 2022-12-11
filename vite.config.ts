@@ -12,19 +12,19 @@ export default defineConfig({
   base: '/3x/',
   server: {
     port: 2021,
-    host: '0.0.0.0',
-    proxy: {
-      '/devServer': {
-        target: 'https://nutui.jd.com',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/devServer/, '')
-      },
-      '/devTheme': {
-        target: 'https://nutui.jd.com/theme/source',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/devTheme/, '')
-      }
-    }
+    host: '0.0.0.0'
+    // proxy: {
+    //   '/devServer': {
+    //     target: 'https://nutui.jd.com',
+    //     changeOrigin: true,
+    //     rewrite: (path) => path.replace(/^\/devServer/, '')
+    //   },
+    //   '/devTheme': {
+    //     target: 'https://nutui.jd.com/theme/source',
+    //     changeOrigin: true,
+    //     rewrite: (path) => path.replace(/^\/devTheme/, '')
+    //   }
+    // }
   },
   resolve: {
     alias: [{ find: '@', replacement: resolve(__dirname, './src') }]
@@ -57,7 +57,7 @@ export default defineConfig({
           if (lang && hljs.getLanguage(lang)) {
             try {
               return hljs.highlight(lang, str).value;
-            } catch (__) {}
+            } catch (__) { }
           }
 
           return ''; // 使用额外的默认转义

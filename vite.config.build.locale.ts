@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue';
 import dts from 'vite-plugin-dts';
 const banner = `/*!
 * ${config.name} v${config.version} ${new Date()}
-* (c) 2022 @jdf2e.
+* (c) 2022 
 * Released under the MIT License.
 */`;
 
@@ -18,8 +18,8 @@ let input = {
 });
 import fs from 'fs-extra';
 // 构建index.scss 兼容插件市场按需加载插件
-fs.outputFile(path.resolve(__dirname, './dist/packages/locale/index.scss'), ' ', 'utf8', (error) => {});
-fs.outputFile(path.resolve(__dirname, './dist/packages/locale/lang/index.scss'), ' ', 'utf8', (error) => {});
+fs.outputFile(path.resolve(__dirname, './dist/packages/locale/index.scss'), ' ', 'utf8', (error) => { });
+fs.outputFile(path.resolve(__dirname, './dist/packages/locale/lang/index.scss'), ' ', 'utf8', (error) => { });
 
 export default defineConfig({
   plugins: [

@@ -20,11 +20,9 @@
     "webpack",
     "vue component",
     "vue3 component",
-    "vite",
-    "jdc",
-    "jdcfe"
+    "vite"
   ],
-  "author": "jdcfe",
+  "author": "",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
@@ -40,16 +38,16 @@
   "scripts": {
     "checked": "npm run generate:file && tsc",
     "dev": "npm run checked && vite --open --force",
-    "build": "npm run checked && vite build --config vite.config.build.ts && vite build --config vite.config.build.disperse.ts && npm run generate:types  && vite build --config vite.config.build.css.ts && vite build --config vite.config.build.locale.ts",
-    "generate:file": "node jd/generate-nutui.js",
+    "build": "npm run checked && vite build --config vite.config.build.ts && vite build --config vite.config.build.disperse.ts  && vite build --config vite.config.build.css.ts && vite build --config vite.config.build.locale.ts",
+    "generate:file": "node km/generate-nutui.js",
     "prepare": "husky install",
     "release": "standard-version -a",
     "codeformat": "prettier --write .",
-    "copydocs": "node ./jd/copymd.js"
+    "copydocs": "node ./km/copymd.js"
   },
   "standard-version": {
     "scripts": {
-      "postchangelog": "node ./jd/updateChangelog.js"
+      "postchangelog": "node ./km/updateChangelog.js"
     }
   },
   "dependencies": {
@@ -133,6 +131,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdf2e/nutui.git"
+    "url": ""
   }
 }
