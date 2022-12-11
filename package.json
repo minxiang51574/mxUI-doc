@@ -39,26 +39,13 @@
   ],
   "scripts": {
     "checked": "npm run generate:file && tsc",
-    "checked:taro:vue": "npm run generate:file:taro:vue",
     "dev": "npm run checked && vite --open --force",
-    "build:site": "npm run checked && vite build",
-    "build:site:oss": "npm run checked && vite build --base=/nutui/3x/",
     "build": "npm run checked && vite build --config vite.config.build.ts && vite build --config vite.config.build.disperse.ts && npm run generate:types && npm run generate:themes && vite build --config vite.config.build.css.ts && vite build --config vite.config.build.locale.ts && npm run attrs",
-    "serve": "vite preview",
-    "upload": "yarn build:site:oss && node ./jd/upload.js",
-    "add": "node jd/createComponentMode.js",
-    "publish:beta": "npm publish --tag=beta",
-    "publish": "npm publish",
     "generate:file": "node jd/generate-nutui.js",
-    "generate:file:taro:vue": "node jd/generate-nutui-taro-vue.js",
-    "generate:types": "node jd/generate-types.js",
-    "generate:themes": "node jd/generate-themes.js",
-    "prepare": "husky install",
-    "test": "jest",
+    "prepare": "husky install", 
     "release": "standard-version -a",
     "codeformat": "prettier --write .",
-    "copydocs": "node ./jd/copymd.js",
-    "attrs": "node ./jd/createAttributes.js"
+    "copydocs": "node ./jd/copymd.js"
   },
   "standard-version": {
     "scripts": {
