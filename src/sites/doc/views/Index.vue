@@ -6,7 +6,7 @@
       <div class="doc-title">
         <div class="doc-title-position" :class="{ fixed: fixed, hidden: hidden }">
           <div class="title">{{ componentName.name }}&nbsp;{{ componentName.cName }}</div>
-          <doc-issue class=""></doc-issue>
+          <!-- <doc-issue class=""></doc-issue> -->
         </div>
       </div>
       <div class="doc-content-document isComponent">
