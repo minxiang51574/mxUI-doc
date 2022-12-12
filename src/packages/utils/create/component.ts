@@ -10,7 +10,7 @@ import {
 import locale from '@/packages/locale';
 import { getPropByPath, isFunction } from '../util';
 export function createComponent(name: string) {
-  const componentName = 'nut-' + name;
+  const componentName = 'k-' + name;
   return {
     componentName,
     translate(keyPath: string, ...args: unknown[]): string {

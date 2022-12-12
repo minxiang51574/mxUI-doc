@@ -1,5 +1,5 @@
 <template>
-  <button :class="classes" :style="getStyle" @click="handleClick">
+  <view :class="classes" :style="getStyle" @click="handleClick">
     <view class="nut-button__warp">
       <nut-icon class="nut-icon-loading" v-if="loading"></nut-icon>
       <nut-icon
@@ -13,14 +13,14 @@
         <slot></slot>
       </view>
     </view>
-  </button>
+  </view>
 </template>
 
 <script lang="ts">
 import { PropType, CSSProperties, toRefs, computed } from 'vue';
 import { createComponent } from '@/packages/utils/create';
+import Icon from '../icon/index.vue';
 const { componentName, create } = createComponent('button');
-import Icon from '../icon/index.taro.vue';
 export default create({
   components: {
     [Icon.name]: Icon

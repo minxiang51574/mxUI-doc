@@ -6,9 +6,9 @@
       <span class="version">{{ version }}</span>
     </div>
     <div class="header-nav">
-      <a href="https://github.com/jdf2e/nutui-docs" target="_blank"
+      <!-- <a href="https://github.com/jdf2e/nutui-docs" target="_blank"
         >当前环境：development ,代码 PR 合并后，文档会自动同步至 https://github.com/jdf2e/nutui-docs</a
-      >
+      > -->
     </div>
   </div>
 </template>
@@ -405,7 +405,7 @@ export default defineComponent({
     .header {
       &-logo {
         .logo-link {
-          background: url('../../assets/images/logo-header-red.png') no-repeat center/100%;
+          // background: url('../../assets/images/logo-header-red.png') no-repeat center/100%;
         }
         .logo-border {
           background: $theme-black-border;

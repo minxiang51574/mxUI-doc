@@ -1,14 +1,14 @@
 <template>
-  <view :class="classes" :style="getStyle" @click="handleClick">
-    <view class="nut-button__warp">
-      <nut-icon class="nut-icon-loading" v-if="loading"></nut-icon>
-      <nut-icon
+  <view :class="classes" @click="handleClick">
+    <view class="k-button__warp">
+      <!-- <k-icon class="k-icon-loading" v-if="loading"></k-icon>
+      <k-icon
         v-if="icon && !loading"
         :name="icon"
         v-bind="$attrs"
-        :class-prefix="iconClassPrefix"
+
         :font-class-name="iconFontClassName"
-      ></nut-icon>
+      ></k-icon> -->
       <view :class="{ text: icon || loading }" v-if="$slots.default">
         <slot></slot>
       </view>
@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { PropType, CSSProperties, toRefs, computed } from 'vue';
+import { PropType, toRefs, computed } from 'vue';
 import { createComponent } from '@/packages/utils/create';
 import Icon from '../icon/index.vue';
 const { componentName, create } = createComponent('button');
@@ -26,42 +26,44 @@ export default create({
     [Icon.name]: Icon
   },
   props: {
-    color: String,
-    shape: {
-      type: String as PropType<import('./type').ButtonShape>,
-      default: 'round'
-    },
-    plain: {
-      type: Boolean,
-      default: false
-    },
-    loading: {
-      type: Boolean,
-      default: false
-    },
-    disabled: {
-      type: Boolean,
-      default: false
-    },
+    // 类型
     type: {
       type: String as PropType<import('./type').ButtonType>,
       default: 'default'
     },
+    // 尺寸
     size: {
       type: String as PropType<import('./type').ButtonSize>,
       default: 'normal'
     },
+    // 是否为块级元素
     block: {
       type: Boolean,
       default: false
     },
+    // 是否镂空（次要按钮）
+    plain: {
+      type: Boolean,
+      default: false
+    },
+    // 是否禁用
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+    // 是否带loading
+    loading: {
+      type: Boolean,
+      default: false
+    },
+    // 形状
+    shape: {
+      type: String as PropType<import('./type').ButtonShape>,
+      default: 'round'
+    },
     icon: {
       type: String,
       default: ''
-    },
-    iconClassPrefix: {
-      type: String,
-      default: 'nut-icon'
     },
     iconFontClassName: {
       type: String,
@@ -69,8 +71,8 @@ export default create({
     }
   },
   emits: ['click'],
-  setup(props, { emit, slots }) {
-    const { type, size, shape, disabled, loading, color, plain, block } = toRefs(props);
+  setup(props, { emit }) {
+    const { type, size, shape, disabled, loading, plain, block } = toRefs(props);
 
     const handleClick = (event: MouseEvent) => {
       if (!loading.value && !disabled.value) {
@@ -92,28 +94,9 @@ export default create({
       };
     });
 
-    const getStyle = computed(() => {
-      const style: CSSProperties = {};
-      if (color?.value) {
-        if (plain.value) {
-          style.color = color.value;
-          style.background = '#fff';
-          if (!color.value?.includes('gradient')) {
-            style.borderColor = color.value;
-          }
-        } else {
-          style.color = '#fff';
-          style.background = color.value;
-        }
-      }
-
-      return style;
-    });
-
     return {
       handleClick,
-      classes,
-      getStyle
+      classes
     };
   }
 });

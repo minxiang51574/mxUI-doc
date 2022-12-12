@@ -2,62 +2,41 @@
   <div class="demo">
     <h2>{{ translate('title') }}</h2>
     <div class="demo-button-row">
-      <nut-button type="primary">{{ translate('primary') }}</nut-button>
-      <nut-button type="info">{{ translate('info') }}</nut-button>
-      <nut-button type="default">{{ translate('default') }}</nut-button>
-    </div>
-    <div class="demo-button-row2">
-      <nut-button type="danger">{{ translate('danger') }}</nut-button>
-      <nut-button type="warning">{{ translate('warning') }}</nut-button>
-      <nut-button type="success">{{ translate('success') }}</nut-button>
+      <k-button type="primary">{{ translate('primary') }}</k-button>
+      <k-button type="default">{{ translate('default') }}</k-button>
     </div>
     <h2>{{ translate('title1') }}</h2>
     <div class="demo-button-row2">
-      <nut-button plain type="primary">{{ translate('plain') }}</nut-button>
-      <nut-button plain type="info">{{ translate('plain') }}</nut-button>
+      <k-button plain type="primary">{{ translate('plain') }}</k-button>
+      <k-button plain type="default">{{ translate('plain') }}</k-button>
     </div>
 
     <h2>{{ translate('title2') }}</h2>
     <div class="demo-button-row2">
-      <nut-button disabled type="primary">{{ translate('disabled') }}</nut-button>
-      <nut-button plain disabled type="info">{{ translate('disabled') }}</nut-button>
-      <nut-button plain disabled type="primary">{{ translate('disabled') }}</nut-button>
+      <k-button disabled type="primary">{{ translate('disabled') }}</k-button>
+      <k-button plain disabled type="primary">{{ translate('disabled') }}</k-button>
     </div>
     <h2>{{ translate('title3') }}</h2>
     <div class="demo-button-row2">
-      <nut-button shape="square" type="primary"> {{ translate('square') }}</nut-button>
-      <nut-button type="info"> {{ translate('round') }}</nut-button>
+      <k-button shape="square" type="primary"> {{ translate('square') }}</k-button>
+      <k-button shape="round" type="default"> {{ translate('round') }}</k-button>
     </div>
     <h2>{{ translate('title4') }}</h2>
     <div class="demo-button-row2">
-      <nut-button loading type="info"></nut-button>
-      <nut-button loading type="warning">{{ translate('loading') }}</nut-button>
-      <nut-button :loading="isLoading" type="success" @click="changeLoading">{{
-        translate('changeLoading')
-      }}</nut-button>
-    </div>
-    <h2>{{ translate('title5') }}</h2>
-    <div class="demo-button-row2">
-      <nut-button shape="square" plain type="primary" icon="star-fill"></nut-button>
-      <nut-button shape="square" type="primary" icon="star">{{ translate('star') }}</nut-button>
+      <k-button loading type="info"></k-button>
+      <k-button loading type="warning">{{ translate('loading') }}</k-button>
+      <k-button :loading="isLoading" type="success" @click="changeLoading">{{ translate('changeLoading') }}</k-button>
     </div>
 
     <h2>{{ translate('title7') }}</h2>
     <div class="demo-button-row2">
-      <nut-button size="large" type="primary" style="margin-bottom: 10px">{{ translate('large') }}</nut-button>
-      <nut-button type="primary">{{ translate('normal') }}</nut-button>
-      <nut-button size="small" type="primary">{{ translate('small') }}</nut-button>
-      <nut-button size="mini" type="primary">{{ translate('mini') }}</nut-button>
+      <k-button size="large" type="primary" style="margin-bottom: 10px">{{ translate('large') }}</k-button>
+      <k-button type="primary">{{ translate('normal') }}</k-button>
+      <k-button size="small" type="primary">{{ translate('small') }}</k-button>
     </div>
     <h2>{{ translate('title8') }}</h2>
     <div class="demo-button-row2">
-      <nut-button block type="primary">{{ translate('block') }}</nut-button>
-    </div>
-    <h2>{{ translate('title9') }}</h2>
-    <div class="demo-button-row2">
-      <nut-button color="#7232dd">{{ translate('pure') }}</nut-button>
-      <nut-button color="#7232dd" plain>{{ translate('pure') }}</nut-button>
-      <nut-button color="linear-gradient(to right, #ff6034, #ee0a24)"> {{ translate('gradient') }} </nut-button>
+      <k-button block type="primary">{{ translate('block') }}</k-button>
     </div>
   </div>
 </template>
@@ -166,7 +145,7 @@ export default createDemo({
   align-items: center;
   flex-wrap: wrap;
 }
-.nut-button {
+.k-button {
   margin-right: 5px;
   &:last-child {
     margin-right: 0;

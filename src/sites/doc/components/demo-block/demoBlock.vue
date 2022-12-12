@@ -2,7 +2,7 @@
   <div class="online-code" ref="onlineCode">
     <slot></slot>
     <div class="online-part">
-      <template v-if="codeType === 'vue'">
+      <!-- <template v-if="codeType === 'vue'">
         <a class="list" :href="jumpHref1" target="_blank">
           <img
             class="online-icon"
@@ -10,14 +10,14 @@
           />
           <div class="online-tips">codesandbox</div>
         </a>
-      </template>
-      <a class="list" :href="jumpHref" target="_blank">
+      </template> -->
+      <!-- <a class="list" :href="jumpHref" target="_blank">
         <img
           class="online-icon"
           src="https://img12.360buyimg.com/imagetools/jfs/t1/214225/34/8715/7002/61c31bf1E69324ee9/7a452063eba88be4.png"
         />
         <div class="online-tips">在线调试</div>
-      </a>
+      </a> -->
       <div class="list" @click="copyCode">
         <img
           class="online-icon"

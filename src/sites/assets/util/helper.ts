@@ -171,13 +171,13 @@ export const useThemeEditor = function () {
       // vite issue https://github.com/vitejs/vite/issues/6894
 
       let customUrl = '';
-      if (isJDT()) {
-        customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jdt.scss_source';
-      } else if (isJDB()) {
-        customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jdb.scss_source';
-      } else if (isJDDKH()) {
-        customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jddkh.scss_source';
-      }
+      // if (isJDT()) {
+      //   customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jdt.scss_source';
+      // } else if (isJDB()) {
+      //   customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jdb.scss_source';
+      // } else if (isJDDKH()) {
+      //   customUrl = 'https://storage.360buyimg.com/nutui-static/source/variables-jddkh.scss_source';
+      // }
       if (customUrl) {
         loadScript('https://storage.360buyimg.com/nutui-static/cdn/sass.sync.min.js').then((res) => {
           Promise.all([getSassVariables(customUrl), getRawSassStyle()]);
