@@ -72,7 +72,6 @@
 ```html
 <template>
   <k-button loading type="primary"></k-button>
-  <k-button loading type="primary">222</k-button>
   <k-button :loading="isLoading" type="primary" @click="changeLoading">Click me!</k-button>
 </template>
 
