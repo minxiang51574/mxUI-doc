@@ -23,9 +23,8 @@
     </div>
     <h2>{{ translate('title4') }}</h2>
     <div class="demo-button-row2">
-      <k-button loading type="info"></k-button>
-      <k-button loading type="warning">{{ translate('loading') }}</k-button>
-      <k-button :loading="isLoading" type="success" @click="changeLoading">{{ translate('changeLoading') }}</k-button>
+      <k-button loading type="primary"></k-button>
+      <k-button :loading="isLoading" type="primary" @click="changeLoading">{{ translate('changeLoading') }}</k-button>
     </div>
 
     <h2>{{ translate('title7') }}</h2>

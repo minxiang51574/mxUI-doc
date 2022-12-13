@@ -1,15 +1,11 @@
 <template>
   <view :class="classes" @click="handleClick">
     <view class="k-button__warp">
-      <!-- <k-icon class="k-icon-loading" v-if="loading"></k-icon>
-      <k-icon
-        v-if="icon && !loading"
-        :name="icon"
-        v-bind="$attrs"
-
-        :font-class-name="iconFontClassName"
-      ></k-icon> -->
-      <view :class="{ text: icon || loading }" v-if="$slots.default">
+      <view v-if="loading">
+        <k-icon name="icon-a-24_loading3fanbai" fontClassName="iconfont-loading"></k-icon>
+        <text :class="{ text: loading }"> {{ loadingText }}</text>
+      </view>
+      <view v-if="$slots.default && !loading">
         <slot></slot>
       </view>
     </view>
@@ -61,13 +57,10 @@ export default create({
       type: String as PropType<import('./type').ButtonShape>,
       default: 'round'
     },
-    icon: {
+    // loading文案
+    loadingText: {
       type: String,
-      default: ''
-    },
-    iconFontClassName: {
-      type: String,
-      default: 'nutui-iconfont'
+      default: '加载中'
     }
   },
   emits: ['click'],

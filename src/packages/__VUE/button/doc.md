@@ -71,9 +71,9 @@
 
 ```html
 <template>
-  <k-button loading type="info"></k-button>
-  <k-button loading type="warning">加载中...</k-button>
-  <k-button :loading="isLoading" type="success" @click="changeLoading">Click me!</k-button>
+  <k-button loading type="primary"></k-button>
+  <k-button loading type="primary">222</k-button>
+  <k-button :loading="isLoading" type="primary" @click="changeLoading">Click me!</k-button>
 </template>
 
 <script>

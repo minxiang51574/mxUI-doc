@@ -29,9 +29,7 @@ export default create({
       return h(
         _isImage ? 'img' : props.tag,
         {
-          class: _isImage
-            ? `${componentName}__img`
-            : `${props.fontClassName} ${componentName} ${props.classPrefix}-${props.name}`,
+          class: _isImage ? `${componentName}__img` : `${props.fontClassName} ${componentName} ${props.name}`,
           style: {
             color: props.color,
             fontSize: pxCheck(props.size),
