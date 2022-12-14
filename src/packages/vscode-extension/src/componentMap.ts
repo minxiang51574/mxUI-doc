@@ -81,10 +81,6 @@ export const componentMap: Record<string, ComponentDesc> = {
     site: '/zh-CN/component/comment',
     props: ["headerType=''"]
   },
-  configprovider: {
-    site: '/zh-CN/component/configprovider',
-    props: ["theme=''"]
-  },
   countdown: {
     site: '/zh-CN/component/countdown',
     props: ["v-model=''"]
