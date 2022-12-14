@@ -1,43 +1,43 @@
 <template>
   <div class="demo">
     <h2>{{ translate('basic') }}</h2>
-    <nut-cell>
-      <nut-button type="primary" @click="show = true">{{ translate('btn1') }}</nut-button>
-      <nut-overlay v-model:visible="show" :z-index="2020" lock-scroll></nut-overlay>
-    </nut-cell>
+    <k-cell>
+      <k-button type="primary" @click="show = true">{{ translate('btn1') }}</k-button>
+      <k-overlay :show="show"></k-overlay>
+    </k-cell>
     <h2>{{ translate('style') }}</h2>
-    <nut-cell>
-      <nut-button type="primary" @click="show3 = true">{{ translate('style') }}</nut-button>
-      <nut-overlay v-model:visible="show3" :z-index="2000" :overlay-style="overlayStyle"></nut-overlay>
-    </nut-cell>
+    <k-cell>
+      <k-button type="primary" @click="show3 = true">{{ translate('style') }}</k-button>
+      <k-overlay v-model:visible="show3" :z-index="2000" :overlay-style="overlayStyle"></k-overlay>
+    </k-cell>
     <h2>{{ translate('duration') }}</h2>
-    <nut-cell>
-      <nut-button type="primary" @click="show4 = true">{{ translate('duration') }}</nut-button>
-      <nut-overlay v-model:visible="show4" :duration="2.5"></nut-overlay>
-    </nut-cell>
+    <k-cell>
+      <k-button type="primary" @click="show4 = true">{{ translate('duration') }}</k-button>
+      <k-overlay v-model:visible="show4" :duration="2.5"></k-overlay>
+    </k-cell>
     <h2>{{ translate('lockscroll') }}</h2>
-    <nut-cell>
-      <nut-button type="primary" @click="show5 = true">{{ translate('lockscroll') }}</nut-button>
-      <nut-overlay v-model:visible="show5" lock-scroll></nut-overlay>
-    </nut-cell>
+    <k-cell>
+      <k-button type="primary" @click="show5 = true">{{ translate('lockscroll') }}</k-button>
+      <k-overlay v-model:visible="show5" lock-scroll></k-overlay>
+    </k-cell>
     <h2>{{ translate('content') }}</h2>
-    <nut-cell>
-      <nut-button type="success" @click="show2 = true">{{ translate('btn2') }}</nut-button>
-      <nut-overlay v-model:visible="show2" :z-index="2000">
+    <k-cell>
+      <k-button type="success" @click="show2 = true">{{ translate('btn2') }}</k-button>
+      <k-overlay v-model:visible="show2" :z-index="2000">
         <div class="wrapper">
           <div class="content">{{ translate('text') }}</div>
         </div>
-      </nut-overlay>
-    </nut-cell>
+      </k-overlay>
+    </k-cell>
     <h2>{{ translate('closeClickLay') }}</h2>
-    <nut-cell>
-      <nut-button type="primary" @click="show6 = true">{{ translate('closeClickLay') }}</nut-button>
-      <nut-overlay v-model:visible="show6" lock-scroll :close-on-click-overlay="false">
+    <k-cell>
+      <k-button type="primary" @click="show6 = true">{{ translate('closeClickLay') }}</k-button>
+      <k-overlay v-model:visible="show6" lock-scroll :close-on-click-overlay="false">
         <div class="wrapper">
           <div class="content" @click.stop="show6 = false">close</div>
         </div>
-      </nut-overlay>
-    </nut-cell>
+      </k-overlay>
+    </k-cell>
   </div>
 </template>
 

@@ -76,8 +76,8 @@ export const getPropByPath = (obj: any, keyPath: string) => {
 };
 
 export const floatData = (format: any, dataOp: any, mapOps: any) => {
-  let mergeFormat = Object.assign({}, format);
-  let mergeMapOps = Object.assign({}, mapOps);
+  const mergeFormat = Object.assign({}, format);
+  const mergeMapOps = Object.assign({}, mapOps);
 
   if (Object.keys(dataOp).length > 0) {
     Object.keys(mergeFormat).forEach((keys) => {
@@ -102,8 +102,8 @@ export const floatData = (format: any, dataOp: any, mapOps: any) => {
 
 export const deepMerge = (target: any, newObj: any) => {
   Object.keys(newObj).forEach((key) => {
-    let targetValue = target[key];
-    let newObjValue = newObj[key];
+    const targetValue = target[key];
+    const newObjValue = newObj[key];
     if (isObject(targetValue) && isObject(newObjValue)) {
       deepMerge(targetValue, newObjValue);
     } else {
@@ -113,7 +113,7 @@ export const deepMerge = (target: any, newObj: any) => {
   return target;
 };
 
-export function myFixed(num: any, digit: number = 2) {
+export function myFixed(num: any, digit = 2) {
   if (Object.is(parseFloat(num), NaN)) {
     return console.log(`传入的值：${num}不是一个数字`);
   }
@@ -143,4 +143,12 @@ export const clamp = (num: number, min: number, max: number): number => Math.min
 
 export const getScrollTopRoot = (): number => {
   return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+};
+
+export const sleep = (value = 30) => {
+  return new Promise<void>((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, value);
+  });
 };

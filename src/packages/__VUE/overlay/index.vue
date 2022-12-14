@@ -1,80 +1,37 @@
+<!--
+ * @Author       : Mx
+ * @Date         : 2022-09-24
+ * @Description  : OverLay 遮罩层 用于强调特定的页面元素，并阻止用户对遮罩下层的内容进行操作，一般用于弹窗场景
+-->
 <template>
-  <Transition name="overlay-fade">
-    <view :class="classes" @click.stop="onClick" :style="style" v-show="visible">
-      <slot></slot>
-    </view>
-  </Transition>
+  <k-transition :custom-style="overlayStyle" :show="show" @click="clickHandler" custom-class="k-overlay">
+    <slot />
+  </k-transition>
 </template>
 <script lang="ts">
-import { CSSProperties, PropType, computed, watchEffect, ComputedRef } from 'vue';
-import { createComponent } from '@/packages/utils/create';
-import { useLockScroll } from '@/packages/utils/useLockScroll';
-const { componentName, create } = createComponent('overlay');
-
-export default create({
-  props: {
-    visible: {
-      type: Boolean,
-      default: false
-    },
-    zIndex: {
-      type: [Number, String],
-      default: 2000
-    },
-    duration: {
-      type: [Number, String],
-      default: 0.3
-    },
-    lockScroll: {
-      type: Boolean,
-      default: false
-    },
-    overlayClass: {
-      type: String,
-      default: ''
-    },
-    overlayStyle: {
-      type: Object as PropType<CSSProperties>
-    },
-    closeOnClickOverlay: {
-      type: Boolean,
-      default: true
-    }
-  },
-
-  emits: ['click', 'update:visible'],
-
-  setup(props, { emit }) {
-    const [lock, unlock] = useLockScroll(() => props.lockScroll);
-
-    const classes = computed(() => {
-      const prefixCls = componentName;
-      return {
-        [prefixCls]: true,
-        [props.overlayClass]: true
-      };
-    });
-
-    const style: ComputedRef = computed(() => {
-      return {
-        transitionDuration: `${props.duration}s`,
-        zIndex: props.zIndex,
-        ...props.overlayStyle
-      };
-    });
-
-    watchEffect(() => {
-      props.visible ? lock() : unlock();
-    });
-
-    const onClick = (e: MouseEvent) => {
-      if (props.closeOnClickOverlay) {
-        emit('update:visible', false);
-        emit('click', e);
-      }
-    };
-
-    return { classes, style, onClick };
-  }
-});
+export default {
+  name: 'k-overlay'
+};
 </script>
+<script setup lang="ts">
+import kTransition from '../transition/index.vue';
+import { overlayProps } from './props';
+
+const props = defineProps(overlayProps);
+
+const overlayStyle = {
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  right: 0,
+  zIndex: props.zIndex,
+  bottom: 0,
+  'background-color': `rgba(0, 0, 0, ${props.opacity})`
+};
+
+const emit = defineEmits(['click']);
+const clickHandler = () => {
+  emit('click');
+};
+</script>
+<style lang="scss" scoped></style>

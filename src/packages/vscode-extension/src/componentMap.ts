@@ -137,10 +137,6 @@ export const componentMap: Record<string, ComponentDesc> = {
     site: '/zh-CN/component/icon',
     props: ["name=''"]
   },
-  image: {
-    site: '/zh-CN/component/image',
-    props: ["src=''"]
-  },
   imagepreview: {
     site: '/zh-CN/component/imagepreview',
     props: ["show=''"]
