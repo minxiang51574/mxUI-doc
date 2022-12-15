@@ -8,7 +8,7 @@
       <view v-if="$slots.default && !loading">
         <slot></slot>
       </view>
-    </view>
+    </view> 
   </view>
 </template>
 
