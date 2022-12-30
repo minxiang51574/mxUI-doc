@@ -1,7 +1,7 @@
 <template>
   <view :class="classes">
     <view v-if="leftIcon && leftIcon.length > 0" class="nut-input-left-icon" @click="onClickLeftIcon">
-      <nut-icon :name="leftIcon" v-bind="$attrs" :size="leftIconSize"></nut-icon>
+      <k-icon :name="leftIcon" v-bind="$attrs" :size="leftIconSize"></k-icon>
     </view>
     <view
       v-if="label"
@@ -49,7 +49,7 @@
             <view v-if="readonly" class="nut-input-disabled-mask" @click="onClickInput"></view>
           </view>
           <view class="nut-input-clear-box">
-            <nut-icon
+            <k-icon
               class="nut-input-clear"
               v-if="clearable && !readonly"
               v-show="active && modelValue.length > 0"
@@ -58,10 +58,10 @@
               :size="clearSize"
               @click="clear"
             >
-            </nut-icon>
+            </k-icon>
           </view>
           <view v-if="rightIcon && rightIcon.length > 0" class="nut-input-right-icon" @click="onClickRightIcon">
-            <nut-icon :name="rightIcon" v-bind="$attrs" :size="rightIconSize"></nut-icon>
+            <k-icon :name="rightIcon" v-bind="$attrs" :size="rightIconSize"></k-icon>
           </view>
           <slot v-if="$slots.button" name="button" class="nut-input-button"></slot>
           <slot v-if="$slots.rightExtra" name="rightExtra"></slot>

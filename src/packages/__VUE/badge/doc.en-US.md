@@ -124,19 +124,19 @@ app.use(Badge);
   <div class="demo">
     <nut-badge>
       <template #icons>
-        <nut-icon name="Check" color="#ffffff" size="12"></nut-icon>
+        <k-icon name="Check" color="#ffffff" size="12"></k-icon>
       </template>
       <nut-avatar icon="my" shape="square"></nut-avatar>
     </nut-badge>
     <nut-badge>
       <template #icons>
-        <nut-icon name="link" color="#ffffff" size="12"></nut-icon>
+        <k-icon name="link" color="#ffffff" size="12"></k-icon>
       </template>
       <nut-avatar icon="my" shape="square"></nut-avatar>
     </nut-badge>
     <nut-badge>
       <template #icons>
-        <nut-icon name="download" color="#ffffff" size="12"></nut-icon>
+        <k-icon name="download" color="#ffffff" size="12"></k-icon>
       </template>
       <nut-avatar icon="my" shape="square"></nut-avatar>
     </nut-badge>

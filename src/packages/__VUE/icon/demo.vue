@@ -2,29 +2,21 @@
   <div class="demo">
     <h2>{{ translate('basic') }}</h2>
     <nut-cell>
-      <nut-icon name="dongdong"></nut-icon>
-      <nut-icon name="JD"></nut-icon>
-    </nut-cell>
-    <h2>{{ translate('imageLink') }}</h2>
-    <nut-cell>
-      <nut-icon
-        size="40"
-        name="https://img11.360buyimg.com/imagetools/jfs/t1/137646/13/7132/1648/5f4c748bE43da8ddd/a3f06d51dcae7b60.png"
-      >
-      </nut-icon>
+      <k-icon name="icon-a-24_loading3fanbai"></k-icon>
+      <k-icon name="icon-a-48pxchenggong"></k-icon>
     </nut-cell>
     <h2>{{ translate('iconColor') }}</h2>
     <nut-cell>
-      <nut-icon name="dongdong" color="#fa2c19"></nut-icon>
-      <nut-icon name="dongdong" color="#64b578"></nut-icon>
-      <nut-icon name="JD" color="#fa2c19"></nut-icon>
+      <k-icon name="dongdong" color="#fa2c19"></k-icon>
+      <k-icon name="dongdong" color="#64b578"></k-icon>
+      <k-icon name="JD" color="#fa2c19"></k-icon>
     </nut-cell>
 
     <h2>{{ translate('iconSize') }}</h2>
     <nut-cell>
-      <nut-icon name="dongdong"></nut-icon>
-      <nut-icon name="dongdong" size="24"></nut-icon>
-      <nut-icon name="dongdong" size="26"></nut-icon>
+      <k-icon name="dongdong"></k-icon>
+      <k-icon name="dongdong" size="24"></k-icon>
+      <k-icon name="dongdong" size="26"></k-icon>
     </nut-cell>
   </div>
 </template>
@@ -35,14 +27,12 @@ const initTranslate = () =>
   useTranslate({
     'zh-CN': {
       basic: '基本用法',
-      imageLink: '图片链接',
       iconColor: '图标颜色',
       iconSize: '图标大小',
       copyToast: '复制成功'
     },
     'en-US': {
       basic: 'Basic Usage',
-      imageLink: 'Image Link',
       iconColor: 'Icon Color',
       iconSize: 'Icon Size',
       copyToast: 'Copied successfully'
@@ -57,8 +47,8 @@ export default createDemo({
   setup() {
     initTranslate();
     const copyTag = (name: string) => {
-      const text = `<nut-icon name="${name}"></nut-icon>`;
-      const displayText = `&lt;nut-icon name="${name}"&gt;&lt;/nut-icon&gt;`;
+      const text = `<k-icon name="${name}"></k-icon>`;
+      const displayText = `&lt;k-icon name="${name}"&gt;&lt;/k-icon&gt;`;
       const input = document.createElement('input');
       document.body.appendChild(input);
       input.setAttribute('value', text);

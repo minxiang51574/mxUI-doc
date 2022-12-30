@@ -61,10 +61,10 @@
       </nut-swiper>
       <view class="nut-swiper-btns">
         <span class="nut-swiper-btns__left" @click="handlePrev">
-          <nut-icon name="left"></nut-icon>
+          <k-icon name="left"></k-icon>
         </span>
         <span class="nut-swiper-btns__left" @click="handleNext">
-          <nut-icon name="right"></nut-icon>
+          <k-icon name="right"></k-icon>
         </span>
       </view>
     </view>

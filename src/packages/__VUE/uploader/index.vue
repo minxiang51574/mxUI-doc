@@ -8,21 +8,21 @@
     <view class="nut-uploader__preview" :class="[listType]" v-for="(item, index) in fileList" :key="item.uid">
       <view class="nut-uploader__preview-img" v-if="listType == 'picture' && !$slots.default">
         <view class="nut-uploader__preview__progress" v-if="item.status != 'success'">
-          <nut-icon
+          <k-icon
             color="#fff"
             :name="item.status == 'error' ? 'failure' : 'loading'"
             v-if="item.status != 'ready'"
-          ></nut-icon>
+          ></k-icon>
           <view class="nut-uploader__preview__progress__msg">{{ item.message }}</view>
         </view>
 
-        <nut-icon
+        <k-icon
           v-if="isDeletable"
           v-bind="$attrs"
           @click="onDelete(item, index)"
           class="close"
           :name="deleteIcon"
-        ></nut-icon>
+        ></k-icon>
         <img
           class="nut-uploader__preview-img__c"
           @click="fileItemClick(item)"
@@ -31,7 +31,7 @@
         />
         <view v-else class="nut-uploader__preview-img__file">
           <view @click="fileItemClick(item)" class="nut-uploader__preview-img__file__name">
-            <nut-icon color="#808080" name="link"></nut-icon>&nbsp;{{ item.name }}
+            <k-icon color="#808080" name="link"></k-icon>&nbsp;{{ item.name }}
           </view>
         </view>
 
@@ -40,9 +40,9 @@
 
       <view class="nut-uploader__preview-list" v-else-if="listType == 'list'">
         <view @click="fileItemClick(item)" class="nut-uploader__preview-img__file__name" :class="[item.status]">
-          <nut-icon name="link" />&nbsp;{{ item.name }}
+          <k-icon name="link" />&nbsp;{{ item.name }}
         </view>
-        <nut-icon
+        <k-icon
           class="nut-uploader__preview-img__file__del"
           @click="onDelete(item, index)"
           color="#808080"
@@ -64,7 +64,7 @@
       :class="[listType]"
       v-if="listType == 'picture' && !$slots.default && maximum - fileList.length"
     >
-      <nut-icon v-bind="$attrs" :size="uploadIconSize" color="#808080" :name="uploadIcon"></nut-icon>
+      <k-icon v-bind="$attrs" :size="uploadIconSize" color="#808080" :name="uploadIcon"></k-icon>
 
       <component :is="renderInput" @change="onChange"></component>
     </view>

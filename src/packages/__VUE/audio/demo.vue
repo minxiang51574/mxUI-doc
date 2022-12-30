@@ -22,7 +22,7 @@
       ref="audioDemo"
     >
       <div class="nut-voice">
-        <div><nut-icon name="voice"></nut-icon></div>
+        <div><k-icon name="voice"></k-icon></div>
         <div>{{ duration }}"</div>
       </div>
     </nut-audio>
@@ -59,11 +59,11 @@
       @changeProgress="changeProgress"
     >
       <div class="nut-audio-operate-group">
-        <nut-audio-operate type="back"><nut-icon name="play-double-back" size="35"></nut-icon></nut-audio-operate>
+        <nut-audio-operate type="back"><k-icon name="play-double-back" size="35"></k-icon></nut-audio-operate>
         <nut-audio-operate type="play"
-          ><nut-icon :name="!playing ? 'play-start' : 'play-stop'" size="35"></nut-icon
+          ><k-icon :name="!playing ? 'play-start' : 'play-stop'" size="35"></k-icon
         ></nut-audio-operate>
-        <nut-audio-operate type="forward"><nut-icon name="play-double-forward" size="35"></nut-icon></nut-audio-operate>
+        <nut-audio-operate type="forward"><k-icon name="play-double-forward" size="35"></k-icon></nut-audio-operate>
       </div>
     </nut-audio>
   </div>

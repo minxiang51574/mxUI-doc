@@ -28,36 +28,36 @@ exports[`Cascader change tab 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-checked=\\"false\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -91,36 +91,36 @@ exports[`Cascader change tab 2`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-checked=\\"false\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -154,36 +154,36 @@ exports[`Cascader change tab 3`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-checked=\\"false\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -201,19 +201,19 @@ exports[`Cascader modelValue 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -247,36 +247,36 @@ exports[`Cascader modelValue 2`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -300,19 +300,19 @@ exports[`Cascader modelValue 3`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -336,19 +336,19 @@ exports[`Cascader modelValue 4`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -374,7 +374,7 @@ exports[`Cascader modelValue with lazy 1`] = `
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -408,39 +408,39 @@ exports[`Cascader modelValue with lazy 2`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">C0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">C0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -474,36 +474,36 @@ exports[`Cascader options 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-checked=\\"false\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -532,23 +532,23 @@ exports[`Cascader options with convertConfig 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">广东省</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">广东省</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">北京</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">北京</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">广州市</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">广州市</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -582,36 +582,36 @@ exports[`Cascader options with valueKey/textKey/childrenKey 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-checked=\\"false\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -640,26 +640,26 @@ exports[`Cascader select 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -693,36 +693,36 @@ exports[`Cascader select 2`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -756,36 +756,36 @@ exports[`Cascader select 3`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
-              </view>
-            </view>
-          </view>
-          <view class=\\"nut-tabpane\\">
-            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
-              <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福州</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+              </view>
+            </view>
+          </view>
+          <view class=\\"nut-tabpane\\">
+            <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
+              <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
+                <view class=\\"nut-cascader-item__title\\">鼓楼区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">台江区</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -809,19 +809,19 @@ exports[`Cascader select 4`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -841,7 +841,7 @@ exports[`Cascader select with lazy 1`] = `
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -865,16 +865,16 @@ exports[`Cascader select with lazy 2`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -903,26 +903,26 @@ exports[`Cascader select with lazy 3`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -956,36 +956,36 @@ exports[`Cascader select with lazy 4`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -1019,36 +1019,36 @@ exports[`Cascader select with lazy 5`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" aria-checked=\\"false\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A11</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" aria-checked=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A12</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A21</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A22</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -1072,16 +1072,16 @@ exports[`Cascader select with lazy 6`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -1110,26 +1110,26 @@ exports[`Cascader select with lazy 7`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\" aria-checked=\\"false\\">
-                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">A0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item active\\" role=\\"menuitemradio\\" aria-checked=\\"true\\">
-                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B0</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B11</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B11</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">B12</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">B12</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"
@@ -1153,19 +1153,19 @@ exports[`Cascader visible 1`] = `
           <view class=\\"nut-tabpane\\">
             <view role=\\"menu\\" class=\\"nut-cascader-pane\\">
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">浙江</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item disabled\\" aria-disabled=\\"true\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">湖南</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
               <view class=\\"nut-cascader-item\\" role=\\"menuitemradio\\">
-                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont nut-icon nut-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
+                <view class=\\"nut-cascader-item__title\\">福建</view><i class=\\"nutui-iconfont k-icon k-icon-checklist nut-cascader-item__icon-check\\" src=\\"\\"></i>
               </view>
             </view>
           </view>
         </view>
       </view>
-      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont nut-icon nut-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
+      <view class=\\"nut-popup__close-icon nut-popup__close-icon--top-right\\"><i class=\\"nutui-iconfont k-icon k-icon-close\\" style=\\"font-size: 12px; width: 12px; height: 12px;\\" src=\\"\\"></i></view>
     </view>
   </transition-stub>
 </teleport-stub>"

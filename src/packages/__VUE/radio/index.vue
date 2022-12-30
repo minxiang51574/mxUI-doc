@@ -32,7 +32,7 @@ export default create({
     },
     iconClassPrefix: {
       type: String,
-      default: 'nut-icon'
+      default: 'k-icon'
     },
     iconFontClassName: {
       type: String,

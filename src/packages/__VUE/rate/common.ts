@@ -56,7 +56,7 @@ const useComponent = (touchable: Boolean = true) => {
       },
       classPrefix: {
         type: String,
-        default: 'nut-icon'
+        default: 'k-icon'
       },
       fontClassName: {
         type: String,

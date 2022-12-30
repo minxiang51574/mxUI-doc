@@ -5,7 +5,7 @@
       color: $dark-color;
     }
     .nut-searchbar__input-clear {
-      & .nut-searchbar__nut-icon-mask-close {
+      & .nut-searchbar__k-icon-mask-close {
         color: $dark-color;
         &:hover {
           cursor: pointer;
@@ -78,7 +78,7 @@
         height: 16px;
         margin-top: -8px;
         margin-right: 10px;
-        & .nut-searchbar__nut-icon-mask-close {
+        & .nut-searchbar__k-icon-mask-close {
           color: rgb(204, 204, 204);
           &:hover {
             cursor: pointer;

@@ -1,5 +1,13 @@
+<!--
+ * @Author: Mx
+ * @Date: 2022-12-30 10:49:50
+ * @Description: Icon 图标
+-->
+<template>
+  <i :class="classes" :style="styles" @click="handleClick"> </i>
+</template>
 <script lang="ts">
-import { h, PropType, ref } from 'vue';
+import { computed } from 'vue';
 import { createComponent } from '@/packages/utils/create';
 const { componentName, create } = createComponent('icon');
 import { pxCheck } from '@/packages/utils/pxCheck';
@@ -8,39 +16,36 @@ export default create({
   props: {
     name: { type: String, default: '' },
     size: { type: [String, Number], default: '' },
-    classPrefix: { type: String, default: 'nut-icon' },
-    fontClassName: { type: String, default: 'nutui-iconfont' },
-    color: { type: String, default: '' },
-    tag: { type: String as PropType<keyof HTMLElementTagNameMap>, default: 'i' }
+    fontClassName: { type: String, default: 'iconfont' },
+    color: { type: String, default: '' }
   },
   emits: ['click'],
 
-  setup(props, { emit, slots }) {
+  setup(props, { emit }) {
     const handleClick = (event: Event) => {
       emit('click', event);
     };
 
-    const isImage = () => {
-      return props.name ? props.name.indexOf('/') !== -1 : false;
-    };
-
-    return () => {
-      const _isImage = isImage();
-      return h(
-        _isImage ? 'img' : props.tag,
-        {
-          class: _isImage ? `${componentName}__img` : `${props.fontClassName} ${componentName} ${props.name}`,
-          style: {
-            color: props.color,
-            fontSize: pxCheck(props.size),
-            width: pxCheck(props.size),
-            height: pxCheck(props.size)
-          },
-          onClick: handleClick,
-          src: _isImage ? props.name : ''
-        },
-        slots.default?.()
-      );
+    const classes = computed(() => {
+      const prefixCls = componentName;
+      return {
+        [props.fontClassName]: true,
+        [prefixCls]: true,
+        [props.name]: true
+      };
+    });
+    const styles = computed(() => {
+      return {
+        color: props.color,
+        fontSize: pxCheck(props.size),
+        width: pxCheck(props.size),
+        height: pxCheck(props.size)
+      };
+    });
+    return {
+      classes,
+      styles,
+      handleClick
     };
   }
 });

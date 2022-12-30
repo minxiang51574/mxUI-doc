@@ -39,7 +39,7 @@
         <span :style="textStyle">{{ percentage }}{{ isShowPercentage ? '%' : '' }} </span>
       </template>
       <template v-else-if="status == 'icon'">
-        <nut-icon v-bind="$attrs" size="16px" :name="iconName" :color="iconColor"></nut-icon>
+        <k-icon v-bind="$attrs" size="16px" :name="iconName" :color="iconColor"></k-icon>
       </template>
     </div>
   </div>

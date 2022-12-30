@@ -47,7 +47,7 @@
       <nut-trendarrow :rate="10.2365" :up-icon-name="'success'" />
       <nut-trendarrow :rate="-10.2365" :down-icon-name="'failure'" />
       <nut-trendarrow :rate="10.2365">
-        <nut-icon name="heart-fill" color="#fa2c19" size="12px"></nut-icon>
+        <k-icon name="heart-fill" color="#fa2c19" size="12px"></k-icon>
       </nut-trendarrow>
     </nut-cell>
   </div>

@@ -102,8 +102,8 @@ export default {
         </ul>
     </template>
 <template v-slot:btn>
-    <nut-icon name="retweet" color="#fff">
-    </nut-icon>
+    <k-icon name="retweet" color="#fff">
+    </k-icon>
     <span class="text">{{ myActive ? 'Open' : 'Close' }}</span>
 </template>
 </nut-fixednav>

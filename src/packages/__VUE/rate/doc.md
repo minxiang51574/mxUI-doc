@@ -208,7 +208,7 @@ export default {
 | unchecked-icon                     | 使用图标(未选中)[图标名称](#/zh-CN/component/icon)        | String  | star-n           |
 | checked-icon                       | 使用图标(选中)[图标名称](#/zh-CN/component/icon)          | String  | star-fill-n      |
 | font-class-name                    | 自定义icon 字体基础类名                   | String  | `nutui-iconfont` |
-| class-prefix                       | 自定义icon 类名前缀，用于使用自定义图标   | String  | `nut-icon`       |
+| class-prefix                       | 自定义icon 类名前缀，用于使用自定义图标   | String  | `k-icon`       |
 | allow-half                         | 是否半星                                  | Boolean | false            |
 | readonly                           | 是否只读                                  | Boolean | false            |
 | disabled                           | 是否禁用                                  | Boolean | false            |

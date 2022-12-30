@@ -1,66 +1,50 @@
 <template>
   <div class="demo">
     <h2>{{ translate('basic') }}</h2>
-    <nut-cell :title="translate('title')" :desc="translate('desc')"></nut-cell>
-    <nut-cell :title="translate('title')" :sub-title="translate('title1')" :desc="translate('desc')"></nut-cell>
-    <nut-cell :title="translate('title3')" @click="testClick"></nut-cell>
-    <nut-cell :title="translate('title4')" round-radius="0"></nut-cell>
+    <k-cell :title="translate('title')" :desc="translate('desc')"></k-cell>
+    <k-cell :title="translate('title')" :sub-title="translate('title1')" :desc="translate('desc')"></k-cell>
+    <k-cell :title="translate('title3')" @click="testClick"></k-cell>
+    <k-cell :title="translate('title4')" round-radius="0"></k-cell>
 
     <h2>{{ translate('title9') }}</h2>
-    <nut-cell size="large" :title="translate('title')" :desc="translate('desc')"></nut-cell>
-    <nut-cell
+    <k-cell size="large" :title="translate('title')" :desc="translate('desc')"></k-cell>
+    <k-cell
       size="large"
       :title="translate('title')"
       :sub-title="translate('title1')"
       :desc="translate('desc')"
-    ></nut-cell>
+    ></k-cell>
 
     <h2>{{ translate('title2') }}</h2>
 
-    <nut-cell>
+    <k-cell>
       <div>{{ translate('content') }}</div>
-    </nut-cell>
+    </k-cell>
 
     <h2>{{ translate('title8') }}</h2>
 
-    <nut-cell :desc="translate('desc')">
+    <k-cell :desc="translate('desc')">
       <template v-slot:title>
         <span>Title <b style="color: red">1</b></span>
       </template>
-    </nut-cell>
+    </k-cell>
 
-    <nut-cell-group :title="translate('title5')" :desc="translate('desc1')">
-      <nut-cell :title="translate('link')" is-link></nut-cell>
-      <nut-cell :title="translate('urlJump')" desc="https://jd.com" is-link url="https://jd.com"></nut-cell>
-      <nut-cell :title="translate('routerJump')" to="/"></nut-cell>
-    </nut-cell-group>
+    <k-cell-group :title="translate('title5')" :desc="translate('desc1')">
+      <k-cell :title="translate('link')" is-link></k-cell>
+      <k-cell :title="translate('urlJump')" desc="https://jd.com" is-link url="https://jd.com"></k-cell>
+      <k-cell :title="translate('routerJump')" to="/"></k-cell>
+    </k-cell-group>
 
-    <nut-cell-group :title="translate('customRight')">
-      <nut-cell title="Switch">
+    <k-cell-group :title="translate('customRight')">
+      <k-cell title="Switch">
         <template v-slot:link>
           <nut-switch v-model="switchChecked" />
         </template>
-      </nut-cell>
-    </nut-cell-group>
-
-    <nut-cell-group :title="translate('customLeftIcon')">
-      <nut-cell :title="translate('image')">
-        <template v-slot:icon>
-          <img
-            class="nut-icon"
-            src="https://img11.360buyimg.com/imagetools/jfs/t1/137646/13/7132/1648/5f4c748bE43da8ddd/a3f06d51dcae7b60.png"
-          />
-        </template>
-      </nut-cell>
-    </nut-cell-group>
-
-    <h2>{{ translate('displayIcon') }}</h2>
-    <nut-cell :title="translate('name')" icon="my" :desc="translate('desc')" isLink> </nut-cell>
-    <h2>{{ translate('title6') }}</h2>
-    <nut-cell desc-text-align="left" :desc="translate('desc')"></nut-cell>
+      </k-cell>
+    </k-cell-group>
 
     <h2>{{ translate('title7') }}</h2>
-    <nut-cell center :title="translate('title')" :sub-title="translate('title1')" :desc="translate('desc')"></nut-cell>
+    <k-cell center :title="translate('title')" :sub-title="translate('title1')" :desc="translate('desc')"></k-cell>
   </div>
 </template>
 
@@ -74,7 +58,7 @@ const initTranslate = () =>
     'zh-CN': {
       basic: '基本用法',
       desc: '描述文字',
-      desc1: '使用 nut-cell-group 支持 title desc slots',
+      desc1: '使用 k-cell-group 支持 title desc slots',
       title: '我是标题',
       title1: '副标题描述',
       title2: '直接使用插槽(slot)',
@@ -98,7 +82,7 @@ const initTranslate = () =>
     'en-US': {
       basic: 'Basic Usage',
       desc: 'Description',
-      desc1: 'Usage nut-cell-group support title desc slots',
+      desc1: 'Usage k-cell-group support title desc slots',
       title: 'Title',
       title1: 'Subtitle Description',
       title2: 'Use Slots',

@@ -1,4 +1,4 @@
-.nut-cell-group {
+.k-cell-group {
   display: block;
   &__title {
     display: inherit;
@@ -24,13 +24,13 @@
     overflow: hidden;
     background-color: $cell-group-background-color;
     margin: 10px 0;
-    .nut-cell {
+    .k-cell {
       margin: 0;
       box-shadow: none;
       border-radius: 0;
     }
   }
-  .nut-cell {
+  .k-cell {
     &::after {
       border-bottom: $cell-after-border-bottom;
     }

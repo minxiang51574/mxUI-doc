@@ -115,8 +115,8 @@ test('should title props ', async () => {
   });
   await nextTick();
   await nextTick();
-  const collapseIcon = wrapper.findAll('.nut-icon');
-  expect(collapseIcon[0].classes()).toContain('nut-icon-issue');
+  const collapseIcon = wrapper.findAll('.k-icon');
+  expect(collapseIcon[0].classes()).toContain('k-icon-issue');
 
   const collapseIconEle = collapseIcon[0].element as HTMLElement;
   expect(collapseIconEle.style.color).toEqual(wrapper.vm.titleIconColor);
@@ -161,8 +161,8 @@ test('should icon props', async () => {
   });
   await nextTick();
   await nextTick();
-  const collapseIcon = wrapper.findAll('.nut-icon');
-  expect(collapseIcon[0].classes()).toContain('nut-icon-' + wrapper.vm.icon);
+  const collapseIcon = wrapper.findAll('.k-icon');
+  expect(collapseIcon[0].classes()).toContain('k-icon-' + wrapper.vm.icon);
 
   const collapseIconEle = collapseIcon[0].element as HTMLElement;
   expect(collapseIconEle.style.fontSize).toEqual(wrapper.vm.iconSize);

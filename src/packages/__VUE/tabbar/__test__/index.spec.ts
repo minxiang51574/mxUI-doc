@@ -82,7 +82,7 @@ test('should render custom check and icon size when using visible', async () => 
     `
   });
   await nextTick();
-  expect(wrapper.find<HTMLElement>('.nut-icon').element.style.fontSize).toEqual('18px');
+  expect(wrapper.find<HTMLElement>('.k-icon').element.style.fontSize).toEqual('18px');
 });
 
 test('should render custom color and bage when using prop', async () => {

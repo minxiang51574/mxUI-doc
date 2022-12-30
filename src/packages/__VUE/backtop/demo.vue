@@ -27,7 +27,7 @@
     <div class="text-data">{{ translate('content') }}24</div>
     <nut-backtop @click="handleClick" el-id="elId" :distance="100" :bottom="110">
       <view class="backtop-demo">
-        <nut-icon size="12px" class="nut-backtop-main" name="top"></nut-icon
+        <k-icon size="12px" class="nut-backtop-main" name="top"></k-icon
         ><view class="title">{{ translate('backText') }}</view>
       </view>
     </nut-backtop>

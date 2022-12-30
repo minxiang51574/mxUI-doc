@@ -148,7 +148,7 @@ Customize the content in the slot named content.
     <template #content>
       <div class="self-content">
         <div class="self-content-item" v-for="(item, index) in selfContent" :key="index">
-          <nut-icon :name="item.name" size="15"></nut-icon>
+          <k-icon :name="item.name" size="15"></k-icon>
         <div class="self-content-desc">{{ item.desc }}</div>
         </div>
       </div>
@@ -297,7 +297,7 @@ export default {
 | show-arrow `v3.1.21`       | whether to show small arrows  | boolean  | true  |
 | custom-class `v3.1.21`       | custom class   | string  | ''  |
 | duration `v3.1.21`       | Transition duration  |  [number, number]  | 0.3  |
-| iconPrefix `v3.1.21`       | Icon className prefix | string  | 'nut-icon''  |
+| iconPrefix `v3.1.21`       | Icon className prefix | string  | 'k-icon''  |
 | overlay `v3.2.8`       | Whether to show overlay  | Boolean  | false  |
 | overlay-class `v3.2.8`       | Custom overlay class | string  | ''  |
 | overlay-style `v3.2.8`       | Custom overlay style  | string  | ''  |
@@ -312,7 +312,7 @@ The List property is an array of objects, each object in the array is configured
 | Key            | Description                 | Type      | Default  |
 |----------------|----------------------|----------|--------|
 | name           | option text               | string   | -      |
-| icon           | `nut-icon` name      | string   | -      |
+| icon           | `k-icon` name      | string   | -      |
 | disabled       | whether to disable          | boolean  | false  | 
 | className `v3.1.21`      | Add extra class names for corresponding options          | string/Array/object  | -  | 
 

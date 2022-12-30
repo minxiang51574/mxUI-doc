@@ -28,7 +28,7 @@
           />
         </form>
         <view @click="handleClear" class="nut-searchbar__input-clear" v-if="clearable" v-show="modelValue.length > 0">
-          <nut-icon :name="clearIcon" size="12" color="#555"></nut-icon>
+          <k-icon :name="clearIcon" size="12" color="#555"></k-icon>
         </view>
       </view>
       <view v-if="$slots.rightin" class="nut-searchbar__search-icon nut-searchbar__iptright-sarch-icon">

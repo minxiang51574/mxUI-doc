@@ -83,7 +83,7 @@ test('step props', async () => {
   expect(stepItemContent.element.innerHTML).toEqual('<span>您的订单正在配送途中</span>');
 
   const stepItemIcon = wrapper.findAll('.nutui-iconfont')[2];
-  expect(stepItemIcon.classes()).toContain('nut-icon-location2');
+  expect(stepItemIcon.classes()).toContain('k-icon-location2');
   expect((stepItemIcon.element as HTMLElement).style.color).toEqual('blue');
   expect((stepItemIcon.element as HTMLElement).style.width).toEqual('14px');
 });

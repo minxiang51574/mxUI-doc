@@ -78,7 +78,7 @@ app.use(Icon);
 <template>
   <nut-searchbar v-model="searchValue">
     <template v-slot:leftin>
-      <nut-icon size="14" name="search2"></nut-icon>
+      <k-icon size="14" name="search2"></k-icon>
     </template>
   </nut-searchbar>
 </template>
@@ -155,16 +155,16 @@ app.use(Icon);
 <template>
   <nut-searchbar v-model="searchValue">
     <template v-slot:leftout>
-      <nut-icon @click="clickLeft" size="20" name="left"></nut-icon>
+      <k-icon @click="clickLeft" size="20" name="left"></k-icon>
     </template>
     <template v-slot:leftin>
-      <nut-icon size="14" name="search2"></nut-icon>
+      <k-icon size="14" name="search2"></k-icon>
     </template>
     <template v-slot:rightin>
-      <nut-icon size="20" name="photograph"></nut-icon>
+      <k-icon size="20" name="photograph"></k-icon>
     </template>
     <template v-slot:rightout>
-      <nut-icon size="20" name="message"></nut-icon>
+      <k-icon size="20" name="message"></k-icon>
     </template>
   </nut-searchbar> 
 </template>

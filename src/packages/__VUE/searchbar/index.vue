@@ -36,7 +36,7 @@
           v-if="clearable"
           v-show="String(modelValue).length > 0"
         >
-          <nut-icon :name="clearIcon" size="12" color="#555"></nut-icon>
+          <k-icon :name="clearIcon" size="12" color="#555"></k-icon>
         </view>
       </view>
       <view

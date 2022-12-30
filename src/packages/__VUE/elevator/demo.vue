@@ -28,7 +28,7 @@
     <div class="elevator-wrapper">
       <nut-elevator :index-list="temp" :height="260" @click-item="clickItem" @click-index="clickIndex">
         <template v-slot:default="slotProps">
-          <nut-icon name="JD" size="12"></nut-icon>
+          <k-icon name="JD" size="12"></k-icon>
           <span :style="{ marginLeft: '15px' }">{{ slotProps.item.name }}</span>
         </template>
       </nut-elevator>

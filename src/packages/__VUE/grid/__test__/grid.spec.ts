@@ -59,8 +59,8 @@ test('should change icon and color when using icon-size and icon-color prop', ()
     }
   });
 
-  expect(wrapper.find<HTMLElement>('.nut-icon').element.style.fontSize).toEqual('30px');
-  expect(wrapper.find<HTMLElement>('.nut-icon').element.style.color).toEqual('red');
+  expect(wrapper.find<HTMLElement>('.k-icon').element.style.fontSize).toEqual('30px');
+  expect(wrapper.find<HTMLElement>('.k-icon').element.style.color).toEqual('red');
 });
 
 test('should render default slot correctly', () => {

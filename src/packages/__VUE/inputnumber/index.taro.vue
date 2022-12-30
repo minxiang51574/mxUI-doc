@@ -1,6 +1,6 @@
 <template>
   <view :class="classes" :style="{ height: pxCheck(buttonSize) }">
-    <nut-icon
+    <k-icon
       :name="iconLeft"
       class="nut-inputnumber__icon"
       :class="{ 'nut-inputnumber__icon--disabled': !reduceAllow() }"
@@ -8,7 +8,7 @@
       v-bind="$attrs"
       @click="reduce"
     >
-    </nut-icon>
+    </k-icon>
     <view v-if="readonly" class="nut-inputnumber__text--readonly">
       {{ modelValue }}
     </view>
@@ -26,7 +26,7 @@
       @blur="blur"
       @focus="focus"
     />
-    <nut-icon
+    <k-icon
       :name="iconRight"
       class="nut-inputnumber__icon"
       :class="{ 'nut-inputnumber__icon--disabled': !addAllow() }"
@@ -34,7 +34,7 @@
       v-bind="$attrs"
       @click="add"
     >
-    </nut-icon>
+    </k-icon>
   </view>
 </template>
 <script lang="ts">

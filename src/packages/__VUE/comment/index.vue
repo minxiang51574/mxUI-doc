@@ -20,11 +20,11 @@
 
     <view class="nut-comment__follow" v-if="follow && follow.days > 0" @click="handleClick">
       <view class="nut-comment__follow-title"
-        ><nut-icon size="14" name="joy-smile" />{{ translate('additionalReview', follow.days) }}</view
+        ><k-icon size="14" name="joy-smile" />{{ translate('additionalReview', follow.days) }}</view
       >
       <view class="nut-comment__follow-com">{{ follow.content }}</view>
       <view class="nut-comment__follow-img" v-if="follow.images && follow.images.length > 0"
-        >{{ translate('additionalImages', follow.images.length) }} <nut-icon size="12" name="right"
+        >{{ translate('additionalImages', follow.images.length) }} <k-icon size="12" name="right"
       /></view>
     </view>
 

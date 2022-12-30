@@ -231,7 +231,7 @@ Use icon slot to custom icon.
 | name | Identifier                              | string | 	Item index     |
 | icon      | icon name   | string | --     |
 | font-class-name |Custom icon font base class name    | string           | `nutui-iconfont` |
-| class-prefix | Custom icon class name prefix for using custom icons     | string           | `nut-icon` |
+| class-prefix | Custom icon class name prefix for using custom icons     | string           | `k-icon` |
 | img      | ImgUrl of unactive tab item | String | --     |
 | active-img      | ImgUrl of active tab item（Only one icon and img can be selected in the same item） | string | --     |
 | href      | Jump links for tabs                          | string | --     |

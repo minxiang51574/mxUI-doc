@@ -12,12 +12,12 @@
     <view class="nut-address">
       <view class="nut-address__header">
         <view class="arrow-back" @click="switchModule">
-          <nut-icon
+          <k-icon
             v-bind="$attrs"
             :name="backBtnIcon"
             color="#cccccc"
             v-show="type == 'exist' && privateType == 'custom' && backBtnIcon"
-          ></nut-icon>
+          ></k-icon>
         </view>
 
         <view class="nut-address__header__title">
@@ -29,7 +29,7 @@
         </view>
 
         <view class="arrow-close" @click="handClose('cross')">
-          <nut-icon v-bind="$attrs" v-if="closeBtnIcon" :name="closeBtnIcon" color="#cccccc" size="18px"></nut-icon>
+          <k-icon v-bind="$attrs" v-if="closeBtnIcon" :name="closeBtnIcon" color="#cccccc" size="18px"></k-icon>
         </view>
       </view>
 

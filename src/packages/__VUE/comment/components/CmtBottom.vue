@@ -9,10 +9,10 @@
         <view :class="['nut-comment-bottom__cpx-item', `nut-comment-bottom__cpx-item--${name}`]" @click="operate(name)">
           <template v-if="name != 'more'">
             <span>{{ info[name] }}</span>
-            <nut-icon :name="name == 'like' ? 'fabulous' : 'comment'"></nut-icon>
+            <k-icon :name="name == 'like' ? 'fabulous' : 'comment'"></k-icon>
           </template>
           <template v-if="name == 'more'">
-            <nut-icon name="more-x"></nut-icon>
+            <k-icon name="more-x"></k-icon>
             <view class="nut-comment-bottom__cpx-item-popover" v-if="showPopver" @click="operate('popover')">{{
               translate('complaintsText')
             }}</view>

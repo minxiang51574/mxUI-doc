@@ -300,7 +300,6 @@ export default {
 import { ref } from 'vue';
 export default {
   setup() {
-    // source file https://github.com/jdf2e/nutui/blob/next/src/packages/__VUE/uploader/uploader.ts#L51
      const beforeXhrUpload=(xhr:XMLHttpRequest,options:any)=>{
         if (options.method.toLowerCase() == 'put') {
           xhr.send(options.sourceFile);

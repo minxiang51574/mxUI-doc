@@ -19,7 +19,7 @@
           class="nut-popup__close-icon"
           :class="'nut-popup__close-icon--' + closeIconPosition"
         >
-          <nut-icon v-bind="$attrs" :name="closeIcon" size="12px" />
+          <k-icon v-bind="$attrs" :name="closeIcon" size="12px" />
         </view>
       </view>
     </Transition>

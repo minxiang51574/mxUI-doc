@@ -2,20 +2,22 @@
   <view :class="classes" @click="handleClick">
     <view class="k-button__warp">
       <view v-if="loading">
-        <k-icon name="icon-a-24_loading3fanbai" fontClassName="iconfont-loading"></k-icon>
+        <k-icon name="icon-a-24_loading3fanbai iconfont-loading"></k-icon>
         <text :class="{ text: loading }"> {{ loadingText }}</text>
       </view>
       <view v-if="$slots.default && !loading">
         <slot></slot>
       </view>
     </view> 
-  </view>
+   </view>
 </template>
+
 
 <script lang="ts">
 import { PropType, toRefs, computed } from 'vue';
-import { createComponent } from '@/packages/utils/create';
+import { createComponent } from '@/packages/utils/create'; 
 import Icon from '../icon/index.vue';
+console.log(Icon);
 const { componentName, create } = createComponent('button');
 export default create({
   components: {

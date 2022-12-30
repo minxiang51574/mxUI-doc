@@ -1,14 +1,14 @@
 <template>
   <div v-if="isShow" id="nav">
     <div class="back" @click="goBack">
-      <nut-icon name="left"></nut-icon>
+      <k-icon name="left"></k-icon>
     </div>
     {{ title }}
     <div class="translate" @click="translateChange">
-      <nut-icon
+      <k-icon
         name="https://img14.360buyimg.com/imagetools/jfs/t1/135168/8/21387/6193/625fa81aEe07cc347/55ad5bc2580c53a6.png"
       >
-      </nut-icon>
+      </k-icon>
     </div>
   </div>
   <router-view />

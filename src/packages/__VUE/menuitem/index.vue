@@ -38,13 +38,13 @@
           :style="{ 'flex-basis': 100 / cols + '%' }"
           @click="onClick(option)"
         >
-          <nut-icon
+          <k-icon
             v-bind="$attrs"
             :class="{ activeTitleClass: option.value === modelValue, inactiveTitleClass: option.value !== modelValue }"
             v-if="option.value === modelValue"
             :name="optionIcon"
             :color="parent.props.activeColor"
-          ></nut-icon>
+          ></k-icon>
           <view
             :class="{ activeTitleClass: option.value === modelValue, inactiveTitleClass: option.value !== modelValue }"
             :style="{ color: option.value === modelValue ? parent.props.activeColor : '' }"

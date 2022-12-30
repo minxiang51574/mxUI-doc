@@ -10,12 +10,12 @@
         >
           <view class="nut-menu__title" :class="getClasses(item.state.showPopup)">
             <view class="nut-menu__title-text">{{ item.renderTitle() }}</view>
-            <nut-icon
+            <k-icon
               v-bind="$attrs"
               :name="titleIcon || (direction === 'up' ? 'arrow-up' : 'down-arrow')"
               size="10"
               class="nut-menu__title-icon"
-            ></nut-icon>
+            ></k-icon>
           </view>
         </view>
       </template>

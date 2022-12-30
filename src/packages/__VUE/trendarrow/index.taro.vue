@@ -4,7 +4,7 @@
       calcRate
     }}</span>
     <slot>
-      <nut-icon
+      <k-icon
         v-if="Number(rate) !== 0"
         :size="calcIconProps.size"
         :name="calcIconProps.name"

@@ -1,7 +1,7 @@
 <template>
   <div class="doc-content-issue">
     <a class="issue-item" href="https://github.com/jdf2e/nutui/issues" target="_blank">
-      <nut-icon name="uploader"></nut-icon>
+      <k-icon name="uploader"></k-icon>
       Issue
     </a>
     <a
@@ -9,7 +9,7 @@
       :href="'https://github.com/jdf2e/nutui/issues?q=is:issue+is:open+' + component"
       target="_blank"
     >
-      <nut-icon name="issue"></nut-icon>
+      <k-icon name="issue"></k-icon>
       Open
     </a>
     <a
@@ -17,7 +17,7 @@
       :href="'https://github.com/jdf2e/nutui/issues?q=is:issue+is:closed+' + component"
       target="_blank"
     >
-      <nut-icon name="checklist"></nut-icon>
+      <k-icon name="checklist"></k-icon>
       Closed
     </a>
   </div>
@@ -83,7 +83,7 @@ export default defineComponent({
     cursor: pointer;
     text-decoration: none;
     border-radius: 2px;
-    .nut-icon {
+    .k-icon {
       font-size: 12px;
       // width: 16px;
       // height: 16px;

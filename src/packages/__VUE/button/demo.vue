@@ -9,7 +9,7 @@
     <div class="demo-button-row2">
       <k-button plain type="primary">{{ translate('plain') }}</k-button>
       <k-button plain type="default">{{ translate('plain') }}</k-button>
-    </div>
+    </div> 
 
     <h2>{{ translate('title2') }}</h2>
     <div class="demo-button-row2">

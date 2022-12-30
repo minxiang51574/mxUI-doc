@@ -62,7 +62,7 @@
     <div class="interstroll-list">
       <nut-noticebar direction="vertical" :list="horseLamp1" :speed="10" :standTime="1000">
         <template v-slot:rightIcon>
-          <nut-icon name="fabulous" color="#f0250f"> </nut-icon>
+          <k-icon name="fabulous" color="#f0250f"> </k-icon>
         </template>
       </nut-noticebar>
     </div>

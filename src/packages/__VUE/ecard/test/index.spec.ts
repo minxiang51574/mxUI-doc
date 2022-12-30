@@ -96,7 +96,7 @@ test('input change when less than maxValue', async () => {
     }
   });
   const input: DOMWrapper<Element> = wrapper.find('.nut-ecard__list__input');
-  const add = wrapper.find('.nut-icon-plus');
+  const add = wrapper.find('.k-icon-plus');
   input.trigger('click');
   add.trigger('click');
   await nextTick();

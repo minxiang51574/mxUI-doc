@@ -47,7 +47,7 @@
       <template #content>
         <div class="self-content">
           <div class="self-content-item" v-for="(item, index) in selfContent" :key="index">
-            <nut-icon :name="item.name" size="15"></nut-icon>
+            <k-icon :name="item.name" size="15"></k-icon>
             <div class="self-content-desc">{{ item.desc }}</div>
           </div>
         </div>

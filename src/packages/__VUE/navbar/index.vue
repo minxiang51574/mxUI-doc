@@ -2,13 +2,13 @@
   <view v-if="fixed && placeholder" class="nut-navbar--placeholder" ref="navBarWrap">
     <view :class="classes" :style="styles" ref="navBarHtml">
       <view class="nut-navbar__left" @click="handleLeft">
-        <nut-icon v-if="leftShow" color="#979797" name="left"></nut-icon>
+        <k-icon v-if="leftShow" color="#979797" name="left"></k-icon>
         <view v-if="leftText" class="nut-navbar__text">{{ leftText }}</view>
         <slot name="left"></slot>
       </view>
       <view class="nut-navbar__title">
         <view v-if="title" class="title" @click="handleCenter">{{ title }}</view>
-        <nut-icon v-if="titIcon" class="icon" v-bind="$attrs" :name="titIcon" @click="handleCenterIcon"></nut-icon>
+        <k-icon v-if="titIcon" class="icon" v-bind="$attrs" :name="titIcon" @click="handleCenterIcon"></k-icon>
         <slot name="content"></slot>
       </view>
       <view class="nut-navbar__right" @click="handleRight">
@@ -19,13 +19,13 @@
   </view>
   <view v-else :class="classes" :style="styles">
     <view class="nut-navbar__left" @click="handleLeft">
-      <nut-icon v-if="leftShow" color="#979797" name="left"></nut-icon>
+      <k-icon v-if="leftShow" color="#979797" name="left"></k-icon>
       <view v-if="leftText" class="nut-navbar__text">{{ leftText }}</view>
       <slot name="left"></slot>
     </view>
     <view class="nut-navbar__title">
       <view v-if="title" class="title" @click="handleCenter">{{ title }}</view>
-      <nut-icon v-if="titIcon" class="icon" v-bind="$attrs" :name="titIcon" @click="handleCenterIcon"></nut-icon>
+      <k-icon v-if="titIcon" class="icon" v-bind="$attrs" :name="titIcon" @click="handleCenterIcon"></k-icon>
       <slot name="content"></slot>
     </view>
     <view class="nut-navbar__right" @click="handleRight">

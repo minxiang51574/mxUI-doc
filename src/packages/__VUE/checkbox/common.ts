@@ -40,7 +40,7 @@ export const component = (componentName: string, nutIcon: object) => {
       },
       iconClassPrefix: {
         type: String,
-        default: 'nut-icon'
+        default: 'k-icon'
       },
       iconFontClassName: {
         type: String,

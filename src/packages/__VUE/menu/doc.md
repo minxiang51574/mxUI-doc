@@ -406,7 +406,7 @@ export default {
 | active-title-class `v3.2.0`   | 选项选中时自定义标题样式类              | String  | -                |
 | inactive-title-class `v3.2.0` | 选项非选中时自定义标题样式类            | String  | -                |
 | font-class-name`v3.2.1`       | 自定义icon 字体基础类名                 | string  | `nutui-iconfont` |
-| class-prefix`v3.2.1`          | 自定义icon 类名前缀，用于使用自定义图标 | string  | `nut-icon`       |
+| class-prefix`v3.2.1`          | 自定义icon 类名前缀，用于使用自定义图标 | string  | `k-icon`       |
 
 ### MenuItem Events
 

@@ -29,8 +29,8 @@
         :class="['nut-audio-icon-box', playing ? 'nut-audio-icon-play' : 'nut-audio-icon-stop']"
         @click="changeStatus"
       >
-        <nut-icon v-if="playing" name="service" class="nut-icon-am-rotate nut-icon-am-infinite"></nut-icon>
-        <nut-icon v-if="!playing" name="service"></nut-icon>
+        <k-icon v-if="playing" name="service" class="k-icon-am-rotate k-icon-am-infinite"></k-icon>
+        <k-icon v-if="!playing" name="service"></k-icon>
       </div>
     </div>
 

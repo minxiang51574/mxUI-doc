@@ -209,7 +209,7 @@ It is suggested to modify `icon-name` and `icon-active-name`
 | icon-size        | [Icon Size](#/en-US/icon)                                           | String、Number          | `18`              |
 | icon-name        | [Icon Name](#en-US//icon)，Before selection (it is suggested to modify it together with `icon-active-name`) | String                  | `'check-normal'`  |
 | icon-active-name | [Icon Name](#en-US//icon)，After selection (it is suggested to modify it together with `icon-name`)       | String                  | `'check-checked'` |
-| icon-class-prefix | Custom icon class name prefix, used to use custom icons        | String                  | `nut-icon` |
+| icon-class-prefix | Custom icon class name prefix, used to use custom icons        | String                  | `k-icon` |
 | icon-font-class-name | Basic class name of custom icon font        | String                  | `nutui-iconfont` |
 | label            | Radio box ID                                                  | String、Number、Boolean | -                 |
 | shape            | Shape, optional values are `button`、`round`                                | String                  | round             |

@@ -24,7 +24,7 @@
           v-if="type == 'multi' && totalImages.length > 9 && videos.length + index > 7"
         >
           <span>共 {{ totalImages.length }} 张</span>
-          <nut-icon name="right" size="12"></nut-icon>
+          <k-icon name="right" size="12"></k-icon>
         </view>
       </view>
     </template>

@@ -6,7 +6,7 @@
         <div>{{ translate('back') }}</div>
       </template>
       <template #right>
-        <nut-icon class="right" name="share-n"></nut-icon>
+        <k-icon class="right" name="share-n"></k-icon>
       </template>
     </nut-navbar>
 
@@ -29,7 +29,7 @@
       :desc="translate('desc2')"
     >
       <template #right>
-        <nut-icon class="right" name="more-x"></nut-icon>
+        <k-icon class="right" name="more-x"></k-icon>
       </template>
     </nut-navbar>
 
@@ -43,7 +43,7 @@
       </template>
 
       <template #right>
-        <nut-icon class="right" name="more-x"></nut-icon>
+        <k-icon class="right" name="more-x"></k-icon>
       </template>
     </nut-navbar>
 
@@ -57,11 +57,11 @@
         </nut-tabs>
       </template>
       <template #icons>
-        <nut-icon class="icon" name="share"></nut-icon>
+        <k-icon class="icon" name="share"></k-icon>
       </template>
 
       <template #right>
-        <nut-icon class="right" name="horizontal-n"></nut-icon>
+        <k-icon class="right" name="horizontal-n"></k-icon>
       </template>
     </nut-navbar>
   </div>

@@ -7,14 +7,14 @@
       <view class="collapse-title">
         <view>
           <view class="collapse-title-value">
-            <nut-icon
+            <k-icon
               v-if="titleIcon"
               :name="titleIcon"
               v-bind="$attrs"
               :size="titleIconSize"
               :color="titleIconColor"
               :class="['collapse-title-icon', titleIconPosition == 'left' ? 'titleIconLeft' : 'titleIconRight']"
-            ></nut-icon>
+            ></k-icon>
             <template v-if="$slots.mTitle">
               <slot name="mTitle"></slot>
             </template>
@@ -28,7 +28,7 @@
         <slot name="sTitle"></slot>
       </view>
       <view v-else v-html="subTitle" class="subTitle"></view>
-      <nut-icon
+      <k-icon
         v-if="icon"
         :name="icon"
         v-bind="$attrs"
@@ -36,7 +36,7 @@
         :color="iconColor"
         :class="['collapse-icon', { 'col-expanded': openExpanded }, { 'collapse-icon-disabled': disabled }]"
         :style="iconStyle"
-      ></nut-icon>
+      ></k-icon>
     </view>
     <view v-if="$slots.extraRender" class="collapse-extraWrapper">
       <div class="collapse-extraRender">

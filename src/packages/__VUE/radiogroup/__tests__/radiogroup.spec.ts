@@ -179,7 +179,7 @@ test('radio icon-name test', async () => {
   });
 
   const items = wrapper.findAll('.nut-radio');
-  expect((items[0].findAll('i') as any)[0].classes()).toContain('nut-icon-checklist');
+  expect((items[0].findAll('i') as any)[0].classes()).toContain('k-icon-checklist');
 });
 
 test('radio label test', async () => {

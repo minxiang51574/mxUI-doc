@@ -23,13 +23,13 @@
         <slot name="icon" :active="active"></slot>
       </div>
       <view v-else-if="icon">
-        <nut-icon
+        <k-icon
           class="nut-tabbar-item_icon-box_icon"
           :size="state.size"
           :name="icon"
           :font-class-name="fontClassName"
           :class-prefix="classPrefix"
-        ></nut-icon>
+        ></k-icon>
       </view>
       <div
         v-else-if="activeImg"
@@ -93,7 +93,7 @@ export default create({
     },
     classPrefix: {
       type: String,
-      default: 'nut-icon'
+      default: 'k-icon'
     },
     dot: {
       type: Boolean,

@@ -148,7 +148,7 @@ export default {
     <template #content>
       <div class="self-content">
         <div class="self-content-item" v-for="(item, index) in selfContent" :key="index">
-          <nut-icon :name="item.name" size="15"></nut-icon>
+          <k-icon :name="item.name" size="15"></k-icon>
         <div class="self-content-desc">{{ item.desc }}</div>
         </div>
       </div>
@@ -296,7 +296,7 @@ export default {
 | show-arrow `v3.1.21`       | 是否显示小箭头  | boolean  | true  |
 | custom-class `v3.1.21`       | 自定义 class 值  | string  | ''  |
 | duration `v3.1.21`       | 动画时长  |  [number, number]  | 0.3  |
-| iconPrefix `v3.1.21`       | 图标自定义类值,等同于 Icon 组件的[ class-prefix 属性](https://nutui.jd.com/#/zh-CN/component/icon)  | string  | 'nut-icon''  |
+| iconPrefix `v3.1.21`       | 图标自定义类值,等同于 Icon 组件的[ class-prefix 属性](https://nutui.jd.com/#/zh-CN/component/icon)  | string  | 'k-icon''  |
 | overlay `v3.2.8`       | 是否显示遮罩层  | Boolean  | false  |
 | overlay-class `v3.2.8`       | 自定义遮罩层类名 | string  | ''  |
 | overlay-style `v3.2.8`       | 自定义遮罩层样式  | string  | ''  |
@@ -311,7 +311,7 @@ List 属性是一个由对象构成的数组，数组中的每个对象配置一
 | 键名            | 说明                 | 类型      | 默认值  |
 |----------------|----------------------|----------|--------|
 | name           | 选项文字               | string   | -      |
-| icon           | nut-icon 图标名称      | string   | -      |
+| icon           | k-icon 图标名称      | string   | -      |
 | disabled       | 是否为禁用状态          | boolean  | false  | 
 | className `v3.1.21`      | 为对应选项添加额外的类名          | string/Array/object  | -  | 
 

@@ -39,7 +39,7 @@
             :style="{ 'flex-basis': 100 / cols + '%' }"
             @click="onClick(option)"
           >
-            <nut-icon
+            <k-icon
               :class="{
                 activeTitleClass: option.value === modelValue,
                 inactiveTitleClass: option.value !== modelValue
@@ -48,7 +48,7 @@
               :name="optionIcon"
               v-bind="$attrs"
               :color="parent.props.activeColor"
-            ></nut-icon>
+            ></k-icon>
             <view
               :class="{
                 activeTitleClass: option.value === modelValue,

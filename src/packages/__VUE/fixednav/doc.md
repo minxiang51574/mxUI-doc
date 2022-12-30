@@ -102,8 +102,8 @@ export default {
         </ul>
     </template>
 <template v-slot:btn>
-    <nut-icon name="retweet" color="#fff">
-    </nut-icon>
+    <k-icon name="retweet" color="#fff">
+    </k-icon>
     <span class="text">{{ myActive ? '自定义开' : '自定义关' }}</span>
 </template>
 </nut-fixednav>

@@ -11,7 +11,7 @@
         <img :src="url" :alt="alt" @error="onError" />
       </template>
       <template v-else-if="icon">
-        <nut-icon v-bind="$attrs" class="icon" :name="iconStyles"></nut-icon>
+        <k-icon v-bind="$attrs" class="icon" :name="iconStyles"></k-icon>
       </template>
       <view class="text" v-if="isShowText">
         <slot></slot>

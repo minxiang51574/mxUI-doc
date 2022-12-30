@@ -257,7 +257,7 @@ Asynchronous modification through `change` event and `model-value`
 | icon-left`v3.2.2`  | Left icon name             | String         | `minus`     |
 | icon-right`v3.2.2` | Right icon name             | String         | `plus`      |
 | font-class-name `v3.2.2` | Custom icon font base class name | String   | `nutui-iconfont` |
-| class-prefix `v3.2.2` | Custom icon class name prefix for using custom icons | String   | `nut-icon`  |
+| class-prefix `v3.2.2` | Custom icon class name prefix for using custom icons | String   | `k-icon`  |
 
 ### Events
 

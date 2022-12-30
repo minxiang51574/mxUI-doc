@@ -4,19 +4,6 @@
 
 基于 IconFont 字体的图标集，可以通过 Icon 组件使用。
 
-### 安装
-
-``` javascript
-import { createApp } from 'vue';
-// vue
-import { Icon } from '@nutui/nutui';
-// taro
-import { Icon } from '@nutui/nutui-taro';
-
-const app = createApp();
-app.use(Icon);
-
-```
 
 
 ### 基础用法
@@ -26,9 +13,8 @@ app.use(Icon);
 :::demo
 ```html
 <template>
-  <nut-icon name="dongdong"></nut-icon>
-  <nut-icon name="JD"></nut-icon>
-  <nut-icon size="40"  name="https://img11.360buyimg.com/imagetools/jfs/t1/137646/13/7132/1648/5f4c748bE43da8ddd/a3f06d51dcae7b60.png"></nut-icon>
+  <k-icon name="icon-a-24_loading3fanbai"></k-icon>
+  <k-icon name="icon-a-48pxchenggong"></k-icon>
 </template>
 ```
 :::
@@ -40,9 +26,9 @@ app.use(Icon);
 :::demo
 ```html
 <template>
-  <nut-icon name="dongdong" color="#fa2c19"></nut-icon>
-  <nut-icon name="dongdong" color="#64b578"></nut-icon>
-  <nut-icon name="JD" color="#fa2c19"></nut-icon>
+  <k-icon name="dongdong" color="#fa2c19"></k-icon>
+  <k-icon name="dongdong" color="#64b578"></k-icon>
+  <k-icon name="JD" color="#fa2c19"></k-icon>
 </template>
 ```
 :::
@@ -54,30 +40,30 @@ app.use(Icon);
 :::demo
 ```html
 <template>
-  <nut-icon name="dongdong"></nut-icon>
-  <nut-icon name="dongdong" size="24"></nut-icon>
-  <nut-icon name="dongdong" size="16"></nut-icon>
+  <k-icon name="dongdong"></k-icon>
+  <k-icon name="dongdong" size="24"></k-icon>
+  <k-icon name="dongdong" size="16"></k-icon>
 </template>
 ```
 :::
 ### 通用动态图标
 
-添加指定的 class 类就可以实现图片动态效果，默认是播放1次，添加 `nut-icon-am-infinite` 类即可实现循环播放。通过设置 css 可实现动画启动前的延迟间隔、动画在多久时间内完成
+添加指定的 class 类就可以实现图片动态效果，默认是播放1次，添加 `k-icon-am-infinite` 类即可实现循环播放。通过设置 css 可实现动画启动前的延迟间隔、动画在多久时间内完成
 
 :::demo
 ```html
 <template>
-  <nut-icon name="dou-arrow-up" class="nut-icon-am-jump nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="star-fill-n" class="nut-icon-am-blink nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="refresh2" class="nut-icon-am-rotate nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="heart-fill" class="nut-icon-am-breathe nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="microphone" class="nut-icon-am-flash nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="download" class="nut-icon-am-bounce nut-icon-am-infinite"></nut-icon>
-  <nut-icon name="message" class="nut-icon-am-shake nut-icon-am-infinite"></nut-icon>
+  <k-icon name="dou-arrow-up" class="k-icon-am-jump k-icon-am-infinite"></k-icon>
+  <k-icon name="star-fill-n" class="k-icon-am-blink k-icon-am-infinite"></k-icon>
+  <k-icon name="refresh2" class="k-icon-am-rotate k-icon-am-infinite"></k-icon>
+  <k-icon name="heart-fill" class="k-icon-am-breathe k-icon-am-infinite"></k-icon>
+  <k-icon name="microphone" class="k-icon-am-flash k-icon-am-infinite"></k-icon>
+  <k-icon name="download" class="k-icon-am-bounce k-icon-am-infinite"></k-icon>
+  <k-icon name="message" class="k-icon-am-shake k-icon-am-infinite"></k-icon>
 </template>
 
 <style>
-  .nut-icon{
+  .k-icon{
     --animate-duration: 1s ; 
     --animate-delay: 0s;
   }
@@ -122,7 +108,7 @@ import './assets/font/iconfont.css';
   class-prefix 指定默认 icon
   name 值根据 iconfont.css 中值对应填写 
 -->
-<nut-icon font-class-name="iconfont" class-prefix="icon" name="close" />
+<k-icon font-class-name="iconfont" class-prefix="icon" name="close" />
 ```
 
 
@@ -150,7 +136,7 @@ import './assets/font/iconfont.css';
   font-class-name 指定类名为默认 my-icon
   class-prefix 指定默认 my-icon
 -->
-<nut-icon font-class-name="my-icon" class-prefix="my-icon" name="extra" />
+<k-icon font-class-name="my-icon" class-prefix="my-icon" name="extra" />
 
 ```
 
@@ -166,7 +152,7 @@ import './assets/font/iconfont.css';
 | color           | 图标颜色                                | String           | -                |
 | size            | 图标大小，如 `20px` `2em` `2rem`        | String or Number | -                |
 | font-class-name | 自定义 icon 字体基础类名                | String           | `nutui-iconfont` |
-| class-prefix    | 自定义 icon 类名前缀，用于使用自定义图标 | String           | `nut-icon`       |
+| class-prefix    | 自定义 icon 类名前缀，用于使用自定义图标 | String           | `k-icon`       |
 | tag             | HTML 标签                               | String           | `i`              |
 
 ### Events

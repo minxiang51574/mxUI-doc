@@ -1,7 +1,7 @@
 <template>
   <view :class="classes" :style="getStyle()" @click="onClick">
     <slot></slot>
-    <nut-icon class="nut-tag--close" v-if="closeable" name="close" size="11" @click="onClose"></nut-icon>
+    <k-icon class="nut-tag--close" v-if="closeable" name="close" size="11" @click="onClose"></k-icon>
   </view>
 </template>
 

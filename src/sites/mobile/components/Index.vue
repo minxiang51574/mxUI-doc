@@ -16,7 +16,7 @@
               <router-link :to="_package.name.toLowerCase()"
                 >{{ _package.name }}&nbsp;&nbsp;{{ _package.cName }}
               </router-link>
-              <nut-icon size="14px" color="#979797" name="right"></nut-icon>
+              <k-icon size="14px" color="#979797" name="right"></k-icon>
             </li>
           </template>
         </ul>

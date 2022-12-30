@@ -381,7 +381,7 @@ When the value changes, the `change` event will be triggered
 | icon-name | [Icon Name](#/en-US/icon)，Before selection (it is suggested to modify it together with `icon-active-name`) | String | `'check-normal'` 
 | icon-active-name | [Icon Name](#/en-US/icon)，After selection (it is suggested to modify it together with `icon-name`) | String | `'checked'`
 | icon-indeterminate-name | [Icon Name](#/en-US/icon)，Semi selected state | String | `'check-disabled'` 
-| icon-class-prefix | Custom icon class name prefix, used to use custom icons        | String                  | `nut-icon` 
+| icon-class-prefix | Custom icon class name prefix, used to use custom icons        | String                  | `k-icon` 
 | icon-font-class-name | Basic class name of custom icon font        | String                  | `nutui-iconfont` 
 | label | Text content of the check box | String | - 
 | indeterminate | Whether half selection status is currently supported. It is generally used in select all operation       | Boolean                  | `false` |

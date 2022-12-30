@@ -1,13 +1,13 @@
 <template>
   <div class="icon-moudle">
     <div class="item home" @click="goHome">
-      <nut-icon name="home"></nut-icon>
+      <k-icon name="home"></k-icon>
     </div>
     <div class="item refresh" @click="refresh">
-      <nut-icon name="refresh"></nut-icon>
+      <k-icon name="refresh"></k-icon>
     </div>
     <div class="item category" @click="toCategory($event)">
-      <nut-icon name="category"></nut-icon>
+      <k-icon name="category"></k-icon>
     </div>
     <div class="qrcodepart" v-if="showCode" ref="codeRef" @click="stopClick($event)">
       <div class="qrcode"> </div>

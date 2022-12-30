@@ -405,7 +405,7 @@ export default {
 | active-title-class `v3.2.0`   | Active custome title class           | String  | -              |
 | inactive-title-class `v3.2.0` | Inactive custome title class         | String  | -              |
 | font-class-name`v3.2.1` | Custom icon font base class name                                                                         | String           | `nutui-iconfont` |
-| class-prefix`v3.2.1`    | Custom icon class name prefix for using custom icons                                                     | String           | `nut-icon`       |
+| class-prefix`v3.2.1`    | Custom icon class name prefix for using custom icons                                                     | String           | `k-icon`       |
 
 
 

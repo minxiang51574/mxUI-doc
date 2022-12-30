@@ -31,12 +31,12 @@
           @click.stop="chooseItem(item, index)"
         >
           <slot v-if="item.icon">
-            <nut-icon
+            <k-icon
               v-bind="$attrs"
               class="nut-popover-item-img"
               :classPrefix="iconPrefix"
               :name="item.icon"
-            ></nut-icon
+            ></k-icon
           ></slot>
           <view class="nut-popover-menu-item-name">{{ item.name }}</view>
         </view>
@@ -65,7 +65,7 @@ export default create({
     offset: { type: Array, default: [0, 12] },
     customClass: { type: String, default: '' },
     showArrow: { type: Boolean, default: true },
-    iconPrefix: { type: String, default: 'nut-icon' },
+    iconPrefix: { type: String, default: 'k-icon' },
     duration: { type: [Number, String], default: 0.3 },
     overlay: { type: Boolean, default: false },
     overlayClass: { type: String, default: '' },

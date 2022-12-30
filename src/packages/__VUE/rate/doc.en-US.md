@@ -207,7 +207,7 @@ export default {
 | unchecked-icon     | Use icon (unchecked)[icon name](#/en-US/component/icon)                                          | String  | star-n           |
 | checked-icon       | Use icon (checked)[icon name](#/en-US/component/icon)                                            | String  | star-fill-n      |
 | font-class-name    | Custom icon font base class name                                                 | String  | `nutui-iconfont` |
-| class-prefix       | Custom icon class name prefix for using custom icons                             | String  | `nut-icon`       |
+| class-prefix       | Custom icon class name prefix for using custom icons                             | String  | `k-icon`       |
 | allow-half         | half star                                                                        | Boolean | false            |
 | readonly           | read-only                                                                        | Boolean | false            |
 | disabled           | whether to disable                                                               | Boolean | false            |

@@ -31,7 +31,7 @@ app.use(TabPane);
       <div>返回</div>
     </template>
     <template #right>
-      <nut-icon class="right" name="share-n"></nut-icon>
+      <k-icon class="right" name="share-n"></k-icon>
     </template>
   </nut-navbar>
 
@@ -54,7 +54,7 @@ app.use(TabPane);
     desc="编辑"
   >
     <template #right>
-      <nut-icon class="right" name="more-x"></nut-icon>
+      <k-icon class="right" name="more-x"></k-icon>
     </template>
   </nut-navbar>
 </template>
@@ -104,7 +104,7 @@ app.use(TabPane);
     </template>
 
     <template #right>
-      <nut-icon class="right" name="more-x"></nut-icon>
+      <k-icon class="right" name="more-x"></k-icon>
     </template>
   </nut-navbar>
 </template>
@@ -153,11 +153,11 @@ export default {
       </nut-tabs>
     </template>
     <template #icons>
-      <nut-icon class="icon" name="share"></nut-icon>
+      <k-icon class="icon" name="share"></k-icon>
     </template>
 
     <template #right>
-      <nut-icon class="right" name="horizontal-n"></nut-icon>
+      <k-icon class="right" name="horizontal-n"></k-icon>
     </template>
   </nut-navbar>
 </template>

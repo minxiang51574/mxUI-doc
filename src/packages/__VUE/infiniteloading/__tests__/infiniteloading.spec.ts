@@ -47,7 +47,7 @@ test('infiniteloading base', async () => {
   const wrapper = mount({
     components: {
       'nut-infiniteloading': InfiniteLoading,
-      'nut-icon': NutIcon
+      'k-icon': NutIcon
     },
     template: `
     <nut-infiniteloading

@@ -1,3 +1,8 @@
+<!--
+ * @Author: Mx
+ * @Date: 2022-12-30 09:43:22
+ * @Description: 
+-->
 <template src="./template.html"></template>
 
 <script lang="ts">
@@ -18,7 +23,6 @@ export default create({
     roundRadius: { type: [String, Number], default: '' },
     url: { type: String, default: '' },
     icon: { type: String, default: '' },
-    rightIcon: { type: String, default: 'right' },
     center: { type: Boolean, default: false },
     size: { type: String, default: '' } // large
   },

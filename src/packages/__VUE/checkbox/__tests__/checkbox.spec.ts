@@ -108,7 +108,7 @@ test('checkbox icon-name test', () => {
   });
 
   const items = wrapper.findAll('.nut-checkbox');
-  expect((items[0].findAll('i') as any)[0].classes()).toContain('nut-icon-checklist');
+  expect((items[0].findAll('i') as any)[0].classes()).toContain('k-icon-checklist');
 });
 
 test('checkbox label test', () => {

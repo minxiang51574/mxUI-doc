@@ -12,8 +12,8 @@
       </div>
       <div class="nut-addresslist-item__info-handle">
         <slot name="contentIcon">
-          <nut-icon name="del" class="nut-addresslist-item__info-handle-del" @click="delClick"></nut-icon>
-          <nut-icon name="edit" class="nut-addresslist-item__info-handle-edit" @click="editClick"></nut-icon>
+          <k-icon name="del" class="nut-addresslist-item__info-handle-del" @click="delClick"></k-icon>
+          <k-icon name="edit" class="nut-addresslist-item__info-handle-edit" @click="editClick"></k-icon>
         </slot>
       </div>
     </div>

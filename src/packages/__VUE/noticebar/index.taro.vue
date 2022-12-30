@@ -9,7 +9,7 @@
       v-if="direction == 'across'"
     >
       <view class="left-icon" v-if="iconShow" :style="{ 'background-image': `url(${iconBg})` }">
-        <slot name="left-icon"><nut-icon name="notice" size="16" :color="color" v-if="!iconBg"></nut-icon></slot>
+        <slot name="left-icon"><k-icon name="notice" size="16" :color="color" v-if="!iconBg"></k-icon></slot>
       </view>
       <view ref="wrap" :class="`wrap wrap${id}`">
         <view
@@ -25,7 +25,7 @@
       </view>
       <view v-if="closeMode || rightIcon" class="right-icon" @click.stop="onClickIcon">
         <slot name="right-icon">
-          <nut-icon v-bind="$attrs" :name="rightIcon ? rightIcon : 'close'" :color="color"></nut-icon
+          <k-icon v-bind="$attrs" :name="rightIcon ? rightIcon : 'close'" :color="color"></k-icon
         ></slot>
       </view>
     </view>
@@ -61,7 +61,7 @@
           <slot name="rightIcon"></slot>
         </template>
         <template v-else-if="closeMode">
-          <nut-icon type="cross" :color="color" size="11px"></nut-icon>
+          <k-icon type="cross" :color="color" size="11px"></k-icon>
         </template>
       </view>
     </view>

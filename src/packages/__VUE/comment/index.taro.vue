@@ -20,11 +20,11 @@
 
     <view class="nut-comment__follow" v-if="follow && follow.days > 0" @click="handleClick">
       <view class="nut-comment__follow-title"
-        ><nut-icon size="14" name="joy-smile" />购买{{ follow.days }}天后追评</view
+        ><k-icon size="14" name="joy-smile" />购买{{ follow.days }}天后追评</view
       >
       <view class="nut-comment__follow-com">{{ follow.content }}</view>
       <view class="nut-comment__follow-img" v-if="follow.images && follow.images.length > 0"
-        >{{ follow.images.length }} 张追评图片 <nut-icon size="12" name="right"
+        >{{ follow.images.length }} 张追评图片 <k-icon size="12" name="right"
       /></view>
     </view>
 

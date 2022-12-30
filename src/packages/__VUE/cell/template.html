@@ -1,17 +1,17 @@
 <view :class="classes" :style="baseStyle" @click="handleClick">
     <slot>
-        <view class="nut-cell__icon" v-if="icon || $slots.icon">
+        <view class="k-cell__icon" v-if="icon || $slots.icon">
             <slot name="icon">
-                <nut-icon v-bind="$attrs" v-if="icon" class="icon" :name="icon"></nut-icon>
+                <k-icon v-bind="$attrs" v-if="icon" class="icon" :name="icon"></k-icon>
             </slot>
         </view>
-        <view class="nut-cell__title" v-if="title || subTitle || $slots.title">
+        <view class="k-cell__title" v-if="title || subTitle || $slots.title">
 
             <template v-if="subTitle">
                 <slot name="title">
                     <view class="title">{{ title }}</view>
                 </slot>
-                <view class="nut-cell__title-desc">{{ subTitle }}</view>
+                <view class="k-cell__title-desc">{{ subTitle }}</view>
             </template>
             <template v-else>
                 <slot name="title">
@@ -19,11 +19,11 @@
                 </slot>
             </template>
         </view>
-        <view v-if="desc" class="nut-cell__value"
-            :class="{ 'nut-cell__value--alone': (!title && !subTitle && !$slots.title) }"
+        <view v-if="desc" class="k-cell__value"
+            :class="{ 'k-cell__value--alone': (!title && !subTitle && !$slots.title) }"
             :style="{ 'text-align': descTextAlign }">{{ desc }}</view>
         <slot name="link">
-            <nut-icon v-if="isLink || to" class="nut-cell__link" v-bind="$attrs" :name="rightIcon"></nut-icon>
+            <k-icon v-if="isLink || to" class="k-cell__link" v-bind="$attrs" name="icon-a-12_arrows_right"></k-icon>
         </slot>
     </slot>
 </view>

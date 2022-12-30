@@ -37,7 +37,7 @@
     </view>
     <view class="nut-imagepreview-index" v-if="showIndex"> {{ active + 1 }} / {{ mergeImages.length }} </view>
     <view :class="iconClasses" @click="onClose" v-if="closeable"
-      ><nut-icon :name="closeIcon" v-bind="$attrs" color="#ffffff"></nut-icon
+      ><k-icon :name="closeIcon" v-bind="$attrs" color="#ffffff"></k-icon
     ></view>
   </nut-popup>
 </template>

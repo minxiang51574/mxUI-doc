@@ -13,7 +13,7 @@
           >
             {{ item.title }}
             <slot name="icon"></slot>
-            <nut-icon v-if="!$slots.icon && item.sorter" name="down-arrow" size="12px"></nut-icon>
+            <k-icon v-if="!$slots.icon && item.sorter" name="down-arrow" size="12px"></k-icon>
           </span>
         </view>
       </view>

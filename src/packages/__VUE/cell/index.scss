@@ -1,11 +1,11 @@
 .nut-theme-dark {
-  .nut-cell {
+  .k-cell {
     background: $dark-background2;
     color: $dark-color;
     box-shadow: none;
   }
 }
-.nut-cell {
+.k-cell {
   position: relative;
   display: flex;
   width: 100%;
@@ -26,7 +26,7 @@
   &--large {
     font-size: $cell-large-title-font;
     padding: $cell-large-padding;
-    .nut-cell__title-desc {
+    .k-cell__title-desc {
       font-size: $cell-large-title-desc-font;
     }
   }

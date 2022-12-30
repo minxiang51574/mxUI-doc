@@ -6,14 +6,14 @@
   right: 0;
 
   &.active {
-    .nut-icon {
+    .k-icon {
       transform: rotate(180deg);
     }
     .nut-fixednav__list {
       transform: translateX(0%) !important;
     }
     &.left {
-      .nut-icon {
+      .k-icon {
         transform: rotate(0deg) !important;
       }
     }
@@ -42,7 +42,7 @@
       color: $fixednav-bg-color;
       flex-shrink: 0;
     }
-    .nut-icon {
+    .k-icon {
       margin-right: 5px;
       transition: all 0.3s;
       transform: rotate(0deg);
@@ -124,7 +124,7 @@
       right: auto;
       left: 0;
       border-radius: 0 45px 45px 0;
-      .nut-icon {
+      .k-icon {
         transform: rotate(180deg);
       }
     }

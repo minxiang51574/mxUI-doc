@@ -2,7 +2,7 @@
   <view :class="classes" :ikey="ikey">
     <view class="nut-subsidenavbar__title" @click.stop="handleClick">
       <span class="nut-subsidenavbar__title__text">{{ title }}</span>
-      <span class="nut-subsidenavbar__title__icon"><nut-icon name="down-arrow" :class="direction"></nut-icon></span>
+      <span class="nut-subsidenavbar__title__icon"><k-icon name="down-arrow" :class="direction"></k-icon></span>
     </view>
     <view class="nut-subsidenavbar__list" :class="!direction ? 'nutFadeIn' : 'nutFadeOut'" :style="style">
       <slot></slot>

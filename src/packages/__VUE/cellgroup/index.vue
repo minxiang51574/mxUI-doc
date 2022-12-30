@@ -1,10 +1,10 @@
 <template>
   <view :class="classes">
     <slot v-if="$slots.title" name="title"></slot>
-    <view v-else-if="title" class="nut-cell-group__title">{{ title }}</view>
+    <view v-else-if="title" class="k-cell-group__title">{{ title }}</view>
     <slot v-if="$slots.desc" name="desc"></slot>
-    <view v-else-if="desc" class="nut-cell-group__desc">{{ desc }}</view>
-    <view class="nut-cell-group__warp">
+    <view v-else-if="desc" class="k-cell-group__desc">{{ desc }}</view>
+    <view class="k-cell-group__warp">
       <slot></slot>
     </view>
   </view>

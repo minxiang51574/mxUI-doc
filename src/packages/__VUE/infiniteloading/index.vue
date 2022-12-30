@@ -2,7 +2,7 @@
   <view :class="classes" ref="scroller" @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd">
     <view class="nut-infinite-top" ref="refreshTop" :style="getStyle">
       <view class="top-box">
-        <nut-icon class="top-img" v-bind="$attrs" :name="pullIcon"></nut-icon>
+        <k-icon class="top-img" v-bind="$attrs" :name="pullIcon"></k-icon>
         <view class="top-text">{{ pullTxt || translate('pullTxt') }}</view>
       </view>
     </view>
@@ -15,7 +15,7 @@
       <template v-if="isInfiniting">
         <view class="bottom-box">
           <slot name="loading">
-            <nut-icon class="bottom-img" v-bind="$attrs" :name="loadIcon"></nut-icon>
+            <k-icon class="bottom-img" v-bind="$attrs" :name="loadIcon"></k-icon>
             <view class="bottom-text">{{ loadTxt || translate('loading') }}</view>
           </slot>
         </view>

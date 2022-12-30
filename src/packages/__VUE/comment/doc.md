@@ -51,7 +51,7 @@ export default {
   setup() {
     let cmt = ref({});
     const labels = () => {
-      return '<nut-icon name="dongdong" color="#fa2c19"></nut-icon>';
+      return '<k-icon name="dongdong" color="#fa2c19"></k-icon>';
     };
     onMounted(()=>{
       fetch('//storage.360buyimg.com/nutui/3x/comment_data.json')

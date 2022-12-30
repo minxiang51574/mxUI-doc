@@ -11,7 +11,7 @@
     </Nut-Scroll-View>
     <view :class="classes" :style="style" @click.stop="click">
       <slot name="icon">
-        <nut-icon size="19px" class="nut-backtop-main" name="top"></nut-icon>
+        <k-icon size="19px" class="nut-backtop-main" name="top"></k-icon>
       </slot>
     </view>
   </view>

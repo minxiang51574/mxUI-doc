@@ -89,7 +89,7 @@ export default createDemo({
     initTranslate();
     let cmt = ref({});
     const labels = () => {
-      return '<nut-icon name="dongdong" color="#fa2c19"></nut-icon>';
+      return '<k-icon name="dongdong" color="#fa2c19"></k-icon>';
     };
 
     const handleclick = (info: any) => {

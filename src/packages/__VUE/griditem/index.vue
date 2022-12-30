@@ -6,13 +6,13 @@
       </template>
       <template v-else>
         <slot v-if="$slots.icon" name="icon"></slot>
-        <nut-icon
+        <k-icon
           v-else
           :name="iconProps.name"
           v-bind="$attrs"
           :size="iconProps.size"
           :color="iconProps.color"
-        ></nut-icon>
+        ></k-icon>
 
         <slot v-if="$slots.text" name="text"></slot>
         <view v-else class="nut-grid-item__text">{{ text }}</view>
